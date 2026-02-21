@@ -2,10 +2,14 @@
   "keywords": [
     {
       "keyword": "Reinforcement Learning",
-      "this_week": 10
+      "this_week": 11
     },
     {
       "keyword": "World Model",
+      "this_week": 9
+    },
+    {
+      "keyword": "Foundation Model",
       "this_week": 9
     },
     {
@@ -37,7 +41,11 @@
       "this_week": 1
     },
     {
-      "keyword": "Foundation Model",
+      "keyword": "Sim-to-Real",
+      "this_week": 1
+    },
+    {
+      "keyword": "Embodied AI",
       "this_week": 1
     }
   ],

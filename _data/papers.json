@@ -68,6 +68,27 @@
     ]
   },
   {
+    "title": "Continual uncertainty learning",
+    "url": "http://arxiv.org/abs/2602.17174v1",
+    "date": "2026-02-19",
+    "score": 0.45714285714285713,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Sim-to-Real"
+    ]
+  },
+  {
+    "title": "BrainRVQ: A High-Fidelity EEG Foundation Model via Dual-Domain Residual Quantization and Hierarchical Autoregression",
+    "url": "http://arxiv.org/abs/2602.16951v1",
+    "date": "2026-02-18",
+    "score": 0.45714285714285713,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
     "title": "Cold-Start Personalization via Training-Free Priors from Structured World Models",
     "url": "http://arxiv.org/abs/2602.15012v1",
     "date": "2026-02-16",
@@ -199,6 +220,16 @@
     ]
   },
   {
+    "title": "Reverso: Efficient Time Series Foundation Models for Zero-shot Forecasting",
+    "url": "http://arxiv.org/abs/2602.17634v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
     "title": "Grip as Needed, Glide on Demand: Ultrasonic Lubrication for Robotic Locomotion",
     "url": "http://arxiv.org/abs/2602.15608v1",
     "date": "2026-02-17",
@@ -259,6 +290,76 @@
     ]
   },
   {
+    "title": "Systematic Evaluation of Single-Cell Foundation Model Interpretability Reveals Attention Captures Co-Expression Rather Than Unique Regulatory Signal",
+    "url": "http://arxiv.org/abs/2602.17532v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Dataless Weight Disentanglement in Task Arithmetic via Kronecker-Factored Approximate Curvature",
+    "url": "http://arxiv.org/abs/2602.17385v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "What Breaks Embodied AI Security:LLM Vulnerabilities, CPS Flaws,or Something Else?",
+    "url": "http://arxiv.org/abs/2602.17345v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Embodied AI"
+    ]
+  },
+  {
+    "title": "Structured Prototype-Guided Adaptation for EEG Foundation Models",
+    "url": "http://arxiv.org/abs/2602.17251v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Decoding the Human Factor: High Fidelity Behavioral Prediction for Strategic Foresight",
+    "url": "http://arxiv.org/abs/2602.17222v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures",
+    "url": "http://arxiv.org/abs/2602.17162v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation",
+    "url": "http://arxiv.org/abs/2602.16915v1",
+    "date": "2026-02-18",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
     "title": "Factored Latent Action World Models",
     "url": "http://arxiv.org/abs/2602.16229v1",
     "date": "2026-02-18",
@@ -277,6 +378,14 @@
     "keywords": [
       "World Model"
     ]
+  },
+  {
+    "title": "Benchmarking the Effects of Object Pose Estimation and Reconstruction on Robotic Grasping Success",
+    "url": "http://arxiv.org/abs/2602.17101v1",
+    "date": "2026-02-19",
+    "score": 0.3071428571428571,
+    "status": "new",
+    "keywords": []
   },
   {
     "title": "World Models for Policy Refinement in StarCraft II",
