@@ -1,0 +1,57 @@
+---
+layout: default
+title: "Benchmarks"
+---
+
+<div class="benchmarks-page">
+  <h1>📊 Benchmark Comparisons</h1>
+
+  <div id="benchmark-charts"></div>
+
+  <table class="bench-table" id="bench-table">
+    <thead>
+      <tr>
+        <th>Repo</th>
+        <th>Paper</th>
+        <th>Benchmark</th>
+        <th>Paper Result</th>
+        <th>Our Result</th>
+        <th>Gap</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+<script>
+  fetch('{{ "/_data/benchmarks.json" | relative_url }}')
+    .then(r => r.json())
+    .then(benchmarks => {
+      const tbody = document.querySelector('#bench-table tbody');
+      benchmarks.forEach(b => {
+        const gapClass = b.gap > 5 ? 'gap-high' : b.gap > 2 ? 'gap-med' : 'gap-low';
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${b.repo}</td>
+          <td>${b.paper}</td>
+          <td>${b.benchmark}</td>
+          <td>${b.paper_result}</td>
+          <td>${b.our_result}</td>
+          <td class="${gapClass}">${b.gap}%</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    })
+    .catch(() => {});
+</script>
+
+<style>
+  .benchmarks-page { max-width: 900px; margin: 0 auto; padding: 1rem; }
+  .bench-table { width: 100%; border-collapse: collapse; }
+  .bench-table th, .bench-table td { padding: 0.75rem; border-bottom: 1px solid #eee; text-align: left; }
+  .bench-table th { background: #f8f9fa; }
+  .gap-low { color: #059669; }
+  .gap-med { color: #d97706; }
+  .gap-high { color: #dc2626; font-weight: bold; }
+</style>

@@ -1,0 +1,96 @@
+{
+  "keywords": [
+    {
+      "keyword": "Reinforcement Learning",
+      "this_week": 10
+    },
+    {
+      "keyword": "World Model",
+      "this_week": 9
+    },
+    {
+      "keyword": "Locomotion",
+      "this_week": 7
+    },
+    {
+      "keyword": "Deep Learning",
+      "this_week": 5
+    },
+    {
+      "keyword": "Imitation Learning",
+      "this_week": 2
+    },
+    {
+      "keyword": "VLA",
+      "this_week": 2
+    },
+    {
+      "keyword": "MuJoCo",
+      "this_week": 1
+    },
+    {
+      "keyword": "Robot Learning",
+      "this_week": 1
+    },
+    {
+      "keyword": "Vision-Language-Action",
+      "this_week": 1
+    },
+    {
+      "keyword": "Foundation Model",
+      "this_week": 1
+    }
+  ],
+  "researchers": [
+    {
+      "name": "Paul Breedveld",
+      "affiliation": null,
+      "count": 2
+    },
+    {
+      "name": "Mostafa A. Atalla",
+      "affiliation": null,
+      "count": 2
+    },
+    {
+      "name": "Michaël Wiertlewski",
+      "affiliation": null,
+      "count": 2
+    },
+    {
+      "name": "Aimée Sakes",
+      "affiliation": null,
+      "count": 2
+    },
+    {
+      "name": "Maks Sorokin",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Robert Wright",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Kartik Garg",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Shuyue Stella Li",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Daesol Cho",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Avinandan Bose",
+      "affiliation": null,
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+---
+layout: default
+title: "Trends"
+---
+
+<div class="trends-page">
+  <h1>📈 Research Trends</h1>
+
+  <h2>Keyword Frequency (Weekly)</h2>
+  <table class="trend-table" id="trend-table">
+    <thead>
+      <tr>
+        <th>Keyword</th>
+        <th>This Week</th>
+        <th>Last Week</th>
+        <th>Change</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <h2>Active Researchers</h2>
+  <div id="researchers-list"></div>
+</div>
+
+<script>
+  fetch('{{ "/_data/trends.json" | relative_url }}')
+    .then(r => r.json())
+    .then(data => {
+      const tbody = document.querySelector('#trend-table tbody');
+      (data.keywords || []).forEach(t => {
+        const arrow = t.change > 0 ? '↑' : t.change < 0 ? '↓' : '→';
+        const cls = t.change > 0 ? 'trend-up' : t.change < 0 ? 'trend-down' : '';
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${t.keyword}</td>
+          <td>${t.this_week}</td>
+          <td>${t.last_week}</td>
+          <td class="${cls}">${arrow} ${Math.abs(t.change)}%</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      const resList = document.getElementById('researchers-list');
+      (data.researchers || []).forEach(r => {
+        resList.innerHTML += `<p><strong>${r.name}</strong> (${r.affiliation || '-'}) — ${r.count} papers</p>`;
+      });
+    })
+    .catch(() => {});
+</script>
+
+<style>
+  .trends-page { max-width: 800px; margin: 0 auto; padding: 1rem; }
+  .trend-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; }
+  .trend-table th, .trend-table td { padding: 0.75rem; border-bottom: 1px solid #eee; }
+  .trend-table th { background: #f8f9fa; }
+  .trend-up { color: #059669; font-weight: bold; }
+  .trend-down { color: #dc2626; }
+</style>

@@ -1,0 +1,86 @@
+---
+layout: default
+title: "Papers"
+---
+
+<div class="papers-page">
+  <h1>📄 Tracked Papers</h1>
+
+  <div class="filters">
+    <select id="category-filter">
+      <option value="">All Categories</option>
+      <option value="VLA">VLA</option>
+      <option value="RL">Reinforcement Learning</option>
+      <option value="IL">Imitation Learning</option>
+      <option value="WorldModel">World Model</option>
+    </select>
+    <select id="status-filter">
+      <option value="">All Status</option>
+      <option value="new">New</option>
+      <option value="reviewed">Reviewed</option>
+    </select>
+  </div>
+
+  <table class="papers-table" id="papers-table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Keywords</th>
+        <th>Score</th>
+        <th>Status</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+<script>
+  fetch('{{ "/_data/papers.json" | relative_url }}')
+    .then(r => r.json())
+    .then(papers => {
+      const tbody = document.querySelector('#papers-table tbody');
+      papers.forEach(p => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><a href="${p.url}" target="_blank">${p.title}</a></td>
+          <td>${(p.keywords || []).join(', ')}</td>
+          <td>${(p.score || 0).toFixed(2)}</td>
+          <td><span class="badge badge-${p.status}">${p.status}</span></td>
+          <td>${p.date || '-'}</td>
+        `;
+        tr.dataset.keywords = (p.keywords || []).join(',');
+        tr.dataset.status = p.status || '';
+        tbody.appendChild(tr);
+      });
+
+      // Filters
+      const catFilter = document.getElementById('category-filter');
+      const statusFilter = document.getElementById('status-filter');
+      const filterRows = () => {
+        const cat = catFilter.value;
+        const status = statusFilter.value;
+        tbody.querySelectorAll('tr').forEach(tr => {
+          const matchCat = !cat || tr.dataset.keywords.includes(cat);
+          const matchStatus = !status || tr.dataset.status === status;
+          tr.style.display = matchCat && matchStatus ? '' : 'none';
+        });
+      };
+      catFilter.addEventListener('change', filterRows);
+      statusFilter.addEventListener('change', filterRows);
+    })
+    .catch(() => {});
+</script>
+
+<style>
+  .papers-page { max-width: 900px; margin: 0 auto; padding: 1rem; }
+  .filters { display: flex; gap: 1rem; margin-bottom: 1rem; }
+  .filters select { padding: 0.5rem; border-radius: 4px; border: 1px solid #ddd; }
+  .papers-table { width: 100%; border-collapse: collapse; }
+  .papers-table th, .papers-table td { padding: 0.75rem; border-bottom: 1px solid #eee; text-align: left; }
+  .papers-table th { background: #f8f9fa; font-weight: 600; }
+  .badge { padding: 2px 8px; border-radius: 12px; font-size: 0.75rem; }
+  .badge-new { background: #dbeafe; color: #2563eb; }
+  .badge-reviewed { background: #d1fae5; color: #059669; }
+</style>

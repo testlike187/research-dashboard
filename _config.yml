@@ -1,0 +1,15 @@
+title: "CIAS Research Dashboard"
+description: "AI Robotics Research Tracking Dashboard"
+baseurl: "/research-dashboard"
+theme: minima
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

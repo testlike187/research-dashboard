@@ -1,0 +1,75 @@
+---
+layout: default
+title: "CIAS Research Dashboard"
+---
+
+<div class="dashboard">
+  <h1>📊 AI Robotics Research Dashboard</h1>
+  <p class="subtitle">Collective Intelligence Agent System</p>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <h3>📄 Papers</h3>
+      <p class="stat-number" id="paper-count">-</p>
+      <p class="stat-label">tracked papers</p>
+    </div>
+    <div class="stat-card">
+      <h3>📝 Reviews</h3>
+      <p class="stat-number" id="review-count">-</p>
+      <p class="stat-label">completed reviews</p>
+    </div>
+    <div class="stat-card">
+      <h3>🔧 Repos</h3>
+      <p class="stat-number" id="repo-count">-</p>
+      <p class="stat-label">tested repos</p>
+    </div>
+    <div class="stat-card">
+      <h3>📈 Keywords</h3>
+      <p class="stat-number" id="keyword-count">-</p>
+      <p class="stat-label">tracked keywords</p>
+    </div>
+  </div>
+
+  <h2>📰 Latest Reports</h2>
+  <ul class="report-list">
+    {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <div class="nav-links">
+    <a href="{{ '/papers/' | relative_url }}">📄 Papers</a>
+    <a href="{{ '/benchmarks/' | relative_url }}">📊 Benchmarks</a>
+    <a href="{{ '/trends/' | relative_url }}">📈 Trends</a>
+  </div>
+</div>
+
+<script>
+  fetch('{{ "/_data/stats.json" | relative_url }}')
+    .then(r => r.json())
+    .then(data => {
+      document.getElementById('paper-count').textContent = data.papers || 0;
+      document.getElementById('review-count').textContent = data.reviews || 0;
+      document.getElementById('repo-count').textContent = data.repos || 0;
+      document.getElementById('keyword-count').textContent = data.keywords || 0;
+    })
+    .catch(() => {});
+</script>
+
+<style>
+  .dashboard { max-width: 800px; margin: 0 auto; padding: 1rem; }
+  .subtitle { color: #666; margin-bottom: 2rem; }
+  .stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-bottom: 2rem; }
+  .stat-card { background: #f8f9fa; border-radius: 8px; padding: 1.5rem; text-align: center; }
+  .stat-number { font-size: 2rem; font-weight: bold; color: #2563eb; margin: 0.5rem 0; }
+  .stat-label { color: #666; font-size: 0.875rem; }
+  .report-list { list-style: none; padding: 0; }
+  .report-list li { padding: 0.75rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; }
+  .report-list .date { color: #999; font-size: 0.875rem; }
+  .nav-links { display: flex; gap: 1rem; margin-top: 2rem; }
+  .nav-links a { padding: 0.75rem 1.5rem; background: #2563eb; color: white; border-radius: 6px; text-decoration: none; }
+  @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+</style>
