@@ -2,14 +2,14 @@
   "keywords": [
     {
       "keyword": "Reinforcement Learning",
-      "this_week": 11
-    },
-    {
-      "keyword": "World Model",
-      "this_week": 9
+      "this_week": 17
     },
     {
       "keyword": "Foundation Model",
+      "this_week": 13
+    },
+    {
+      "keyword": "World Model",
       "this_week": 9
     },
     {
@@ -17,11 +17,23 @@
       "this_week": 7
     },
     {
+      "keyword": "Manipulation",
+      "this_week": 6
+    },
+    {
       "keyword": "Deep Learning",
       "this_week": 5
     },
     {
       "keyword": "Imitation Learning",
+      "this_week": 4
+    },
+    {
+      "keyword": "Sim-to-Real",
+      "this_week": 3
+    },
+    {
+      "keyword": "Humanoid",
       "this_week": 2
     },
     {
@@ -41,27 +53,23 @@
       "this_week": 1
     },
     {
-      "keyword": "Sim-to-Real",
-      "this_week": 1
-    },
-    {
       "keyword": "Embodied AI",
       "this_week": 1
     }
   ],
   "researchers": [
     {
-      "name": "Paul Breedveld",
-      "affiliation": null,
-      "count": 2
-    },
-    {
-      "name": "Mostafa A. Atalla",
-      "affiliation": null,
-      "count": 2
-    },
-    {
       "name": "Michaël Wiertlewski",
+      "affiliation": null,
+      "count": 2
+    },
+    {
+      "name": "C. Karen Liu",
+      "affiliation": null,
+      "count": 2
+    },
+    {
+      "name": "Paul Breedveld",
       "affiliation": null,
       "count": 2
     },
@@ -71,12 +79,17 @@
       "count": 2
     },
     {
-      "name": "Maks Sorokin",
+      "name": "Mostafa A. Atalla",
+      "affiliation": null,
+      "count": 2
+    },
+    {
+      "name": "Robert Wright",
       "affiliation": null,
       "count": 1
     },
     {
-      "name": "Robert Wright",
+      "name": "Maks Sorokin",
       "affiliation": null,
       "count": 1
     },
@@ -92,11 +105,6 @@
     },
     {
       "name": "Daesol Cho",
-      "affiliation": null,
-      "count": 1
-    },
-    {
-      "name": "Avinandan Bose",
       "affiliation": null,
       "count": 1
     }

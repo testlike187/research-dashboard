@@ -23,6 +23,42 @@
     ]
   },
   {
+    "title": "SimToolReal: An Object-Centric Policy for Zero-Shot Dexterous Tool Manipulation",
+    "url": "http://arxiv.org/abs/2602.16863v1",
+    "date": "2026-02-18",
+    "score": 0.6071428571428572,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation",
+    "url": "http://arxiv.org/abs/2602.16705v1",
+    "date": "2026-02-18",
+    "score": 0.6071428571428572,
+    "status": "new",
+    "keywords": [
+      "Imitation Learning",
+      "Manipulation",
+      "Humanoid"
+    ]
+  },
+  {
+    "title": "VIGOR: Visual Goal-In-Context Inference for Unified Humanoid Fall Safety",
+    "url": "http://arxiv.org/abs/2602.16511v1",
+    "date": "2026-02-18",
+    "score": 0.5857142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Imitation Learning",
+      "Humanoid"
+    ]
+  },
+  {
     "title": "AdaptManip: Learning Adaptive Whole-Body Object Lifting and Delivery with Online Recurrent State Estimation",
     "url": "http://arxiv.org/abs/2602.14363v1",
     "date": "2026-02-16",
@@ -140,6 +176,16 @@
     ]
   },
   {
+    "title": "Nonlinear Predictive Control of the Continuum and Hybrid Dynamics of a Suspended Deformable Cable for Aerial Pick and Place",
+    "url": "http://arxiv.org/abs/2602.17199v1",
+    "date": "2026-02-19",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
     "title": "Dynamic Modeling and MPC for Locomotion of Tendon-Driven Soft Quadruped",
     "url": "http://arxiv.org/abs/2602.16371v1",
     "date": "2026-02-18",
@@ -167,6 +213,16 @@
     "status": "new",
     "keywords": [
       "World Model"
+    ]
+  },
+  {
+    "title": "Markerless 6D Pose Estimation and Position-Based Visual Servoing for Endoscopic Continuum Manipulators",
+    "url": "http://arxiv.org/abs/2602.16365v1",
+    "date": "2026-02-18",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Sim-to-Real"
     ]
   },
   {
@@ -360,6 +416,66 @@
     ]
   },
   {
+    "title": "The Bots of Persuasion: Examining How Conversational Agents' Linguistic Expressions of Personality Affect User Perceptions and Decisions",
+    "url": "http://arxiv.org/abs/2602.17185v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "LexiSafe: Offline Safe Reinforcement Learning with Lexicographic Safety-Reward Hierarchy",
+    "url": "http://arxiv.org/abs/2602.17312v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "RLGT: A reinforcement learning framework for extremal graph theory",
+    "url": "http://arxiv.org/abs/2602.17276v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Dynamic Decision-Making under Model Misspecification: A Stochastic Stability Approach",
+    "url": "http://arxiv.org/abs/2602.17086v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Position: Why a Dynamical Systems Perspective is Needed to Advance Time Series Modeling",
+    "url": "http://arxiv.org/abs/2602.16864v1",
+    "date": "2026-02-18",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Parameter-free representations outperform single-cell foundation models on downstream benchmarks",
+    "url": "http://arxiv.org/abs/2602.16696v1",
+    "date": "2026-02-18",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
     "title": "Factored Latent Action World Models",
     "url": "http://arxiv.org/abs/2602.16229v1",
     "date": "2026-02-18",
@@ -367,6 +483,16 @@
     "status": "new",
     "keywords": [
       "World Model"
+    ]
+  },
+  {
+    "title": "Are Object-Centric Representations Better At Compositional Generalization?",
+    "url": "http://arxiv.org/abs/2602.16689v1",
+    "date": "2026-02-18",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
     ]
   },
   {
@@ -384,6 +510,48 @@
     "url": "http://arxiv.org/abs/2602.17101v1",
     "date": "2026-02-19",
     "score": 0.3071428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "Physical Human-Robot Interaction for Grasping in Augmented Reality via Rigid-Soft Robot Synergy",
+    "url": "http://arxiv.org/abs/2602.17128v1",
+    "date": "2026-02-19",
+    "score": 0.3071428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "Featured Publications",
+    "url": "https://www.tri.global/research/careful-examination-large-behavior-models-multitask-dexterous-manipulation",
+    "date": "2026-02-21",
+    "score": 0.3,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "This Home Robot Clears Tables and Loads the Dishwasher All by Itself",
+    "url": "https://www.sunday.ai/journal",
+    "date": "2026-02-21",
+    "score": 0.3,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "ACT-1: A Robot Foundation Model Trained on Zero Robot Data",
+    "url": "https://www.sunday.ai/journal",
+    "date": "2026-02-21",
+    "score": 0.3,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "No Priors Episode | Conviction",
+    "url": "https://www.sunday.ai/journal",
+    "date": "2026-02-21",
+    "score": 0.3,
     "status": "new",
     "keywords": []
   },
@@ -424,5 +592,59 @@
     "score": 0.2785714285714286,
     "status": "new",
     "keywords": []
+  },
+  {
+    "title": "ODESteer: A Unified ODE-Based Steering Framework for LLM Alignment",
+    "url": "http://arxiv.org/abs/2602.17560v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "Tracing Copied Pixels and Regularizing Patch Affinity in Copy Detection",
+    "url": "http://arxiv.org/abs/2602.17484v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "2Mamba2Furious: Linear in Complexity, Competitive in Accuracy",
+    "url": "http://arxiv.org/abs/2602.17363v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "Leveraging Contrastive Learning for a Similarity-Guided Tampered Document Data Generation Pipeline",
+    "url": "http://arxiv.org/abs/2602.17322v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Attachment Anchors: A Novel Framework for Laparoscopic Grasping Point Prediction in Colorectal Surgery",
+    "url": "http://arxiv.org/abs/2602.17310v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Deep Reinforcement Learning for Optimal Portfolio Allocation: A Comparative Study with Mean-Variance Optimization",
+    "url": "http://arxiv.org/abs/2602.17098v1",
+    "date": "2026-02-19",
+    "score": 0.10714285714285714,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
   }
 ]
