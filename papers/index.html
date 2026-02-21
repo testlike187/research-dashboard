@@ -4,26 +4,32 @@ title: "Papers"
 ---
 
 <div class="papers-page">
-  <h1>📄 Tracked Papers</h1>
+  <h1>Tracked Papers</h1>
+  <p class="subtitle" id="paper-summary"></p>
 
   <div class="filters">
-    <select id="category-filter">
-      <option value="">All Categories</option>
-      <option value="VLA">VLA</option>
-      <option value="RL">Reinforcement Learning</option>
-      <option value="IL">Imitation Learning</option>
-      <option value="WorldModel">World Model</option>
+    <input type="text" id="search-input" placeholder="Search title..." />
+    <select id="keyword-filter">
+      <option value="">All Keywords</option>
     </select>
     <select id="status-filter">
       <option value="">All Status</option>
       <option value="new">New</option>
       <option value="reviewed">Reviewed</option>
     </select>
+    <select id="sort-select">
+      <option value="score">Sort by Score</option>
+      <option value="date">Sort by Date</option>
+      <option value="title">Sort by Title</option>
+    </select>
   </div>
+
+  <div class="paper-count" id="showing-count"></div>
 
   <table class="papers-table" id="papers-table">
     <thead>
       <tr>
+        <th>#</th>
         <th>Title</th>
         <th>Keywords</th>
         <th>Score</th>
@@ -31,56 +37,103 @@ title: "Papers"
         <th>Date</th>
       </tr>
     </thead>
-    <tbody>
-    </tbody>
+    <tbody></tbody>
   </table>
 </div>
 
 <script>
-  fetch('{{ "/_data/papers.json" | relative_url }}')
-    .then(r => r.json())
-    .then(papers => {
-      const tbody = document.querySelector('#papers-table tbody');
-      papers.forEach(p => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td><a href="${p.url}" target="_blank">${p.title}</a></td>
-          <td>${(p.keywords || []).join(', ')}</td>
-          <td>${(p.score || 0).toFixed(2)}</td>
-          <td><span class="badge badge-${p.status}">${p.status}</span></td>
-          <td>${p.date || '-'}</td>
-        `;
-        tr.dataset.keywords = (p.keywords || []).join(',');
-        tr.dataset.status = p.status || '';
-        tbody.appendChild(tr);
-      });
+const BASE = '{{ "/assets/data" | relative_url }}';
+let allPapers = [];
 
-      // Filters
-      const catFilter = document.getElementById('category-filter');
-      const statusFilter = document.getElementById('status-filter');
-      const filterRows = () => {
-        const cat = catFilter.value;
-        const status = statusFilter.value;
-        tbody.querySelectorAll('tr').forEach(tr => {
-          const matchCat = !cat || tr.dataset.keywords.includes(cat);
-          const matchStatus = !status || tr.dataset.status === status;
-          tr.style.display = matchCat && matchStatus ? '' : 'none';
-        });
-      };
-      catFilter.addEventListener('change', filterRows);
-      statusFilter.addEventListener('change', filterRows);
-    })
-    .catch(() => {});
+fetch(BASE + '/papers.json')
+  .then(r => r.json())
+  .then(papers => {
+    allPapers = papers;
+    document.getElementById('paper-summary').textContent = `Total: ${papers.length} papers`;
+
+    // Build keyword filter options
+    const kwSet = new Set();
+    papers.forEach(p => (p.keywords || []).forEach(k => kwSet.add(k)));
+    const kwSelect = document.getElementById('keyword-filter');
+    [...kwSet].sort().forEach(kw => {
+      kwSelect.innerHTML += `<option value="${kw}">${kw}</option>`;
+    });
+
+    renderTable(papers);
+
+    // Event listeners
+    document.getElementById('search-input').addEventListener('input', applyFilters);
+    document.getElementById('keyword-filter').addEventListener('change', applyFilters);
+    document.getElementById('status-filter').addEventListener('change', applyFilters);
+    document.getElementById('sort-select').addEventListener('change', applyFilters);
+  }).catch(() => {});
+
+function applyFilters() {
+  const search = document.getElementById('search-input').value.toLowerCase();
+  const kw = document.getElementById('keyword-filter').value;
+  const status = document.getElementById('status-filter').value;
+  const sort = document.getElementById('sort-select').value;
+
+  let filtered = allPapers.filter(p => {
+    if (search && !p.title.toLowerCase().includes(search)) return false;
+    if (kw && !(p.keywords || []).includes(kw)) return false;
+    if (status && p.status !== status) return false;
+    return true;
+  });
+
+  if (sort === 'date') filtered.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  else if (sort === 'title') filtered.sort((a, b) => a.title.localeCompare(b.title));
+  else filtered.sort((a, b) => (b.score || 0) - (a.score || 0));
+
+  renderTable(filtered);
+}
+
+function renderTable(papers) {
+  const tbody = document.querySelector('#papers-table tbody');
+  tbody.innerHTML = '';
+  document.getElementById('showing-count').textContent = `Showing ${papers.length} papers`;
+
+  papers.forEach((p, i) => {
+    const kws = (p.keywords || []).map(k => `<span class="tag">${k}</span>`).join(' ');
+    const statusCls = p.status === 'reviewed' ? 'badge-reviewed' : 'badge-new';
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="rank">${i + 1}</td>
+      <td><a href="${p.url}" target="_blank">${p.title}</a></td>
+      <td>${kws}</td>
+      <td class="score">${(p.score || 0).toFixed(2)}</td>
+      <td><span class="badge ${statusCls}">${p.status || 'new'}</span></td>
+      <td class="date">${p.date || '-'}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
 </script>
 
 <style>
-  .papers-page { max-width: 900px; margin: 0 auto; padding: 1rem; }
-  .filters { display: flex; gap: 1rem; margin-bottom: 1rem; }
-  .filters select { padding: 0.5rem; border-radius: 4px; border: 1px solid #ddd; }
-  .papers-table { width: 100%; border-collapse: collapse; }
-  .papers-table th, .papers-table td { padding: 0.75rem; border-bottom: 1px solid #eee; text-align: left; }
-  .papers-table th { background: #f8f9fa; font-weight: 600; }
-  .badge { padding: 2px 8px; border-radius: 12px; font-size: 0.75rem; }
+  .papers-page { max-width: 1100px; margin: 0 auto; padding: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  .subtitle { color: #6b7280; }
+  .filters { display: flex; gap: 0.75rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+  .filters input, .filters select { padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 6px; font-size: 0.85rem; }
+  .filters input { flex: 1; min-width: 180px; }
+  .paper-count { color: #9ca3af; font-size: 0.8rem; margin-bottom: 0.5rem; }
+
+  .papers-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  .papers-table th { background: #f9fafb; padding: 0.6rem; text-align: left; border-bottom: 2px solid #e5e7eb; font-size: 0.8rem; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; }
+  .papers-table td { padding: 0.6rem; border-bottom: 1px solid #f3f4f6; vertical-align: top; }
+  .papers-table a { color: #1f2937; text-decoration: none; }
+  .papers-table a:hover { color: #2563eb; }
+  .rank { color: #9ca3af; font-weight: 500; width: 32px; }
+  .score { font-weight: 600; color: #2563eb; }
+  .date { color: #9ca3af; white-space: nowrap; }
+
+  .tag { display: inline-block; background: #eff6ff; color: #2563eb; padding: 1px 6px; border-radius: 10px; font-size: 0.7rem; margin: 1px; white-space: nowrap; }
+  .badge { padding: 1px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: 500; }
   .badge-new { background: #dbeafe; color: #2563eb; }
   .badge-reviewed { background: #d1fae5; color: #059669; }
+
+  @media (max-width: 768px) {
+    .papers-table { font-size: 0.8rem; }
+    .papers-table th:nth-child(3), .papers-table td:nth-child(3) { display: none; }
+  }
 </style>

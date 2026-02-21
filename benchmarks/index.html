@@ -4,11 +4,22 @@ title: "Benchmarks"
 ---
 
 <div class="benchmarks-page">
-  <h1>📊 Benchmark Comparisons</h1>
+  <h1>Benchmark Comparisons</h1>
 
-  <div id="benchmark-charts"></div>
+  <div id="bench-empty" class="empty-state" style="display:none;">
+    <p>No benchmark results yet.</p>
+    <p class="hint">Benchmark data will appear here after running CodeRunner tests on tracked repos. The weekly crawl detects candidate repos, and test results are recorded via <code>CodeRunner.save_test_result()</code>.</p>
+  </div>
 
-  <table class="bench-table" id="bench-table">
+  <div id="bench-summary" style="display:none;">
+    <div class="stats-row">
+      <div class="mini-stat"><span id="total-tests">0</span> tests</div>
+      <div class="mini-stat">Avg gap: <span id="avg-gap">-</span>%</div>
+      <div class="mini-stat"><span id="close-count">0</span> close matches (&le;2%)</div>
+    </div>
+  </div>
+
+  <table class="bench-table" id="bench-table" style="display:none;">
     <thead>
       <tr>
         <th>Repo</th>
@@ -19,39 +30,65 @@ title: "Benchmarks"
         <th>Gap</th>
       </tr>
     </thead>
-    <tbody>
-    </tbody>
+    <tbody></tbody>
   </table>
 </div>
 
 <script>
-  fetch('{{ "/_data/benchmarks.json" | relative_url }}')
-    .then(r => r.json())
-    .then(benchmarks => {
-      const tbody = document.querySelector('#bench-table tbody');
-      benchmarks.forEach(b => {
-        const gapClass = b.gap > 5 ? 'gap-high' : b.gap > 2 ? 'gap-med' : 'gap-low';
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${b.repo}</td>
-          <td>${b.paper}</td>
-          <td>${b.benchmark}</td>
-          <td>${b.paper_result}</td>
-          <td>${b.our_result}</td>
-          <td class="${gapClass}">${b.gap}%</td>
-        `;
-        tbody.appendChild(tr);
-      });
-    })
-    .catch(() => {});
+const BASE = '{{ "/assets/data" | relative_url }}';
+
+fetch(BASE + '/benchmarks.json')
+  .then(r => r.json())
+  .then(benchmarks => {
+    if (!benchmarks || benchmarks.length === 0) {
+      document.getElementById('bench-empty').style.display = 'block';
+      return;
+    }
+
+    document.getElementById('bench-summary').style.display = 'block';
+    document.getElementById('bench-table').style.display = 'table';
+    document.getElementById('total-tests').textContent = benchmarks.length;
+
+    const avgGap = benchmarks.reduce((s, b) => s + (b.gap || 0), 0) / benchmarks.length;
+    document.getElementById('avg-gap').textContent = avgGap.toFixed(1);
+    document.getElementById('close-count').textContent = benchmarks.filter(b => (b.gap || 0) <= 2).length;
+
+    const tbody = document.querySelector('#bench-table tbody');
+    benchmarks.forEach(b => {
+      const gapCls = b.gap > 5 ? 'gap-high' : b.gap > 2 ? 'gap-med' : 'gap-low';
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${b.repo || '-'}</td>
+        <td>${b.paper || '-'}</td>
+        <td>${b.benchmark || '-'}</td>
+        <td>${b.paper_result != null ? b.paper_result : '-'}</td>
+        <td>${b.our_result != null ? b.our_result : '-'}</td>
+        <td class="${gapCls}">${b.gap != null ? b.gap.toFixed(1) + '%' : '-'}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }).catch(() => {
+    document.getElementById('bench-empty').style.display = 'block';
+  });
 </script>
 
 <style>
-  .benchmarks-page { max-width: 900px; margin: 0 auto; padding: 1rem; }
+  .benchmarks-page { max-width: 900px; margin: 0 auto; padding: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+
+  .empty-state { text-align: center; padding: 3rem 1rem; color: #6b7280; }
+  .empty-state p { margin: 0.5rem 0; }
+  .hint { font-size: 0.85rem; color: #9ca3af; }
+  .hint code { background: #f3f4f6; padding: 1px 4px; border-radius: 3px; }
+
+  .stats-row { display: flex; gap: 1.5rem; margin-bottom: 1.5rem; }
+  .mini-stat { background: #f9fafb; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.9rem; border: 1px solid #e5e7eb; }
+  .mini-stat span { font-weight: 700; color: #2563eb; }
+
   .bench-table { width: 100%; border-collapse: collapse; }
-  .bench-table th, .bench-table td { padding: 0.75rem; border-bottom: 1px solid #eee; text-align: left; }
-  .bench-table th { background: #f8f9fa; }
-  .gap-low { color: #059669; }
-  .gap-med { color: #d97706; }
-  .gap-high { color: #dc2626; font-weight: bold; }
+  .bench-table th, .bench-table td { padding: 0.6rem; border-bottom: 1px solid #f3f4f6; text-align: left; }
+  .bench-table th { background: #f9fafb; font-size: 0.8rem; color: #6b7280; text-transform: uppercase; }
+
+  .gap-low { color: #059669; font-weight: 600; }
+  .gap-med { color: #d97706; font-weight: 600; }
+  .gap-high { color: #dc2626; font-weight: 700; }
 </style>

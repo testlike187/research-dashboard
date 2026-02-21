@@ -4,57 +4,87 @@ title: "Trends"
 ---
 
 <div class="trends-page">
-  <h1>📈 Research Trends</h1>
+  <h1>Research Trends</h1>
 
-  <h2>Keyword Frequency (Weekly)</h2>
+  <h2>Keyword Frequency (This Week)</h2>
+  <div class="bar-chart" id="keyword-chart"></div>
+
   <table class="trend-table" id="trend-table">
     <thead>
       <tr>
         <th>Keyword</th>
         <th>This Week</th>
-        <th>Last Week</th>
-        <th>Change</th>
+        <th>Bar</th>
       </tr>
     </thead>
-    <tbody>
-    </tbody>
+    <tbody></tbody>
   </table>
 
   <h2>Active Researchers</h2>
-  <div id="researchers-list"></div>
+  <table class="researcher-table" id="researcher-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Affiliation</th>
+        <th>Papers</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
 </div>
 
 <script>
-  fetch('{{ "/_data/trends.json" | relative_url }}')
-    .then(r => r.json())
-    .then(data => {
-      const tbody = document.querySelector('#trend-table tbody');
-      (data.keywords || []).forEach(t => {
-        const arrow = t.change > 0 ? '↑' : t.change < 0 ? '↓' : '→';
-        const cls = t.change > 0 ? 'trend-up' : t.change < 0 ? 'trend-down' : '';
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${t.keyword}</td>
-          <td>${t.this_week}</td>
-          <td>${t.last_week}</td>
-          <td class="${cls}">${arrow} ${Math.abs(t.change)}%</td>
-        `;
-        tbody.appendChild(tr);
-      });
+const BASE = '{{ "/assets/data" | relative_url }}';
 
-      const resList = document.getElementById('researchers-list');
-      (data.researchers || []).forEach(r => {
-        resList.innerHTML += `<p><strong>${r.name}</strong> (${r.affiliation || '-'}) — ${r.count} papers</p>`;
-      });
-    })
-    .catch(() => {});
+fetch(BASE + '/trends.json')
+  .then(r => r.json())
+  .then(data => {
+    const keywords = data.keywords || [];
+    const maxVal = Math.max(...keywords.map(k => k.this_week), 1);
+
+    // Keyword table
+    const tbody = document.querySelector('#trend-table tbody');
+    keywords.forEach(kw => {
+      const pct = (kw.this_week / maxVal * 100).toFixed(0);
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="kw-name">${kw.keyword}</td>
+        <td class="kw-count">${kw.this_week}</td>
+        <td class="kw-bar"><div class="bar-mini" style="width:${pct}%"></div></td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    // Researchers table
+    const resTbody = document.querySelector('#researcher-table tbody');
+    (data.researchers || []).forEach((r, i) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="rank">${i + 1}</td>
+        <td>${r.name}</td>
+        <td>${r.affiliation || '-'}</td>
+        <td class="count">${r.count}</td>
+      `;
+      resTbody.appendChild(tr);
+    });
+  }).catch(() => {});
 </script>
 
 <style>
-  .trends-page { max-width: 800px; margin: 0 auto; padding: 1rem; }
-  .trend-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; }
-  .trend-table th, .trend-table td { padding: 0.75rem; border-bottom: 1px solid #eee; }
-  .trend-table th { background: #f8f9fa; }
-  .trend-up { color: #059669; font-weight: bold; }
-  .trend-down { color: #dc2626; }
+  .trends-page { max-width: 800px; margin: 0 auto; padding: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  h2 { margin-top: 2rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e5e7eb; }
+
+  .trend-table, .researcher-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; }
+  .trend-table th, .trend-table td,
+  .researcher-table th, .researcher-table td { padding: 0.6rem; border-bottom: 1px solid #f3f4f6; text-align: left; }
+  .trend-table th, .researcher-table th { background: #f9fafb; font-size: 0.8rem; color: #6b7280; text-transform: uppercase; }
+
+  .kw-name { font-weight: 500; width: 180px; }
+  .kw-count { font-weight: 600; color: #2563eb; width: 80px; text-align: center; }
+  .kw-bar { width: auto; }
+  .bar-mini { background: #3b82f6; height: 18px; border-radius: 3px; min-width: 4px; transition: width 0.3s; }
+
+  .rank { color: #9ca3af; width: 32px; }
+  .count { font-weight: 600; color: #2563eb; }
 </style>

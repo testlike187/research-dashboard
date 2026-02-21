@@ -1,0 +1,428 @@
+[
+  {
+    "title": "Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching",
+    "url": "http://arxiv.org/abs/2602.15827v1",
+    "date": "2026-02-17",
+    "score": 0.6857142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment",
+    "url": "http://arxiv.org/abs/2602.17259v1",
+    "date": "2026-02-19",
+    "score": 0.6071428571428572,
+    "status": "new",
+    "keywords": [
+      "VLA",
+      "World Model",
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "AdaptManip: Learning Adaptive Whole-Body Object Lifting and Delivery with Online Recurrent State Estimation",
+    "url": "http://arxiv.org/abs/2602.14363v1",
+    "date": "2026-02-16",
+    "score": 0.5428571428571429,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Imitation Learning",
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs",
+    "url": "http://arxiv.org/abs/2602.17659v1",
+    "date": "2026-02-19",
+    "score": 0.5285714285714286,
+    "status": "new",
+    "keywords": [
+      "VLA",
+      "Vision-Language-Action"
+    ]
+  },
+  {
+    "title": "Learning to unfold cloth: Scaling up world models to deformable object manipulation",
+    "url": "http://arxiv.org/abs/2602.16675v1",
+    "date": "2026-02-18",
+    "score": 0.5071428571428571,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "World Model"
+    ]
+  },
+  {
+    "title": "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2602.15817v1",
+    "date": "2026-02-17",
+    "score": 0.4857142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "MuJoCo"
+    ]
+  },
+  {
+    "title": "Continual uncertainty learning",
+    "url": "http://arxiv.org/abs/2602.17174v1",
+    "date": "2026-02-19",
+    "score": 0.45714285714285713,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Sim-to-Real"
+    ]
+  },
+  {
+    "title": "BrainRVQ: A High-Fidelity EEG Foundation Model via Dual-Domain Residual Quantization and Hierarchical Autoregression",
+    "url": "http://arxiv.org/abs/2602.16951v1",
+    "date": "2026-02-18",
+    "score": 0.45714285714285713,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Cold-Start Personalization via Training-Free Priors from Structured World Models",
+    "url": "http://arxiv.org/abs/2602.15012v1",
+    "date": "2026-02-16",
+    "score": 0.4142857142857143,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "World Model"
+    ]
+  },
+  {
+    "title": "IRIS: Learning-Driven Task-Specific Cinema Robot Arm for Visuomotor Motion Control",
+    "url": "http://arxiv.org/abs/2602.17537v1",
+    "date": "2026-02-19",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
+      "Imitation Learning"
+    ]
+  },
+  {
+    "title": "A Cost-Effective and Climate-Resilient Air Pressure System for Rain Effect Reduction on Automated Vehicle Cameras",
+    "url": "http://arxiv.org/abs/2602.17472v1",
+    "date": "2026-02-19",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "Proximal powered knee placement: a case study",
+    "url": "http://arxiv.org/abs/2602.17502v1",
+    "date": "2026-02-19",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "SparTa: Sparse Graphical Task Models from a Handful of Demonstrations",
+    "url": "http://arxiv.org/abs/2602.16911v1",
+    "date": "2026-02-18",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
+      "Robot Learning"
+    ]
+  },
+  {
+    "title": "Dynamic Modeling and MPC for Locomotion of Tendon-Driven Soft Quadruped",
+    "url": "http://arxiv.org/abs/2602.16371v1",
+    "date": "2026-02-18",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "System Identification under Constraints and Disturbance: A Bayesian Estimation Approach",
+    "url": "http://arxiv.org/abs/2602.16358v1",
+    "date": "2026-02-18",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "World Model Failure Classification and Anomaly Detection for Autonomous Inspection",
+    "url": "http://arxiv.org/abs/2602.16182v1",
+    "date": "2026-02-18",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "A.R.I.S.: Automated Recycling Identification System for E-Waste Classification Using Deep Learning",
+    "url": "http://arxiv.org/abs/2602.17642v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "SMAC: Score-Matched Actor-Critics for Robust Offline-to-Online Transfer",
+    "url": "http://arxiv.org/abs/2602.17632v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Stable Asynchrony: Variance-Controlled Off-Policy RL for LLMs",
+    "url": "http://arxiv.org/abs/2602.17616v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Adapting Actively on the Fly: Relevance-Guided Online Meta-Learning with Latent Concepts for Geospatial Discovery",
+    "url": "http://arxiv.org/abs/2602.17605v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "MASPO: Unifying Gradient Utilization, Probability Mass, and Signal Reliability for Robust and Sample-Efficient LLM Reasoning",
+    "url": "http://arxiv.org/abs/2602.17550v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Reverso: Efficient Time Series Foundation Models for Zero-shot Forecasting",
+    "url": "http://arxiv.org/abs/2602.17634v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Grip as Needed, Glide on Demand: Ultrasonic Lubrication for Robotic Locomotion",
+    "url": "http://arxiv.org/abs/2602.15608v1",
+    "date": "2026-02-17",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "OSCAR: An Ovipositor-Inspired Self-Propelling Capsule Robot for Colonoscopy",
+    "url": "http://arxiv.org/abs/2602.15309v1",
+    "date": "2026-02-17",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing",
+    "url": "http://arxiv.org/abs/2602.15549v1",
+    "date": "2026-02-17",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "EAGLE: Expert-Augmented Attention Guidance for Tuning-Free Industrial Anomaly Detection in Multimodal Large Language Models",
+    "url": "http://arxiv.org/abs/2602.17419v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "Visual Model Checking: Graph-Based Inference of Visual Routines for Image Retrieval",
+    "url": "http://arxiv.org/abs/2602.17386v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "Continual learning and refinement of causal models through dynamic predicate invention",
+    "url": "http://arxiv.org/abs/2602.17217v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "Systematic Evaluation of Single-Cell Foundation Model Interpretability Reveals Attention Captures Co-Expression Rather Than Unique Regulatory Signal",
+    "url": "http://arxiv.org/abs/2602.17532v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Dataless Weight Disentanglement in Task Arithmetic via Kronecker-Factored Approximate Curvature",
+    "url": "http://arxiv.org/abs/2602.17385v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "What Breaks Embodied AI Security:LLM Vulnerabilities, CPS Flaws,or Something Else?",
+    "url": "http://arxiv.org/abs/2602.17345v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Embodied AI"
+    ]
+  },
+  {
+    "title": "Structured Prototype-Guided Adaptation for EEG Foundation Models",
+    "url": "http://arxiv.org/abs/2602.17251v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Decoding the Human Factor: High Fidelity Behavioral Prediction for Strategic Foresight",
+    "url": "http://arxiv.org/abs/2602.17222v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures",
+    "url": "http://arxiv.org/abs/2602.17162v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation",
+    "url": "http://arxiv.org/abs/2602.16915v1",
+    "date": "2026-02-18",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Factored Latent Action World Models",
+    "url": "http://arxiv.org/abs/2602.16229v1",
+    "date": "2026-02-18",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "World-Model-Augmented Web Agents with Action Correction",
+    "url": "http://arxiv.org/abs/2602.15384v1",
+    "date": "2026-02-17",
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "Benchmarking the Effects of Object Pose Estimation and Reconstruction on Robotic Grasping Success",
+    "url": "http://arxiv.org/abs/2602.17101v1",
+    "date": "2026-02-19",
+    "score": 0.3071428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "World Models for Policy Refinement in StarCraft II",
+    "url": "http://arxiv.org/abs/2602.14857v1",
+    "date": "2026-02-16",
+    "score": 0.29285714285714287,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "Art2Mus: Artwork-to-Music Generation via Visual Conditioning and Large-Scale Cross-Modal Alignment",
+    "url": "http://arxiv.org/abs/2602.17599v1",
+    "date": "2026-02-19",
+    "score": 0.2785714285714286,
+    "status": "new",
+    "keywords": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "RetouchIQ: MLLM Agents for Instruction-Based Image Retouching with Generalist Reward",
+    "url": "http://arxiv.org/abs/2602.17558v1",
+    "date": "2026-02-19",
+    "score": 0.2785714285714286,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
+    "url": "http://arxiv.org/abs/2602.17594v1",
+    "date": "2026-02-19",
+    "score": 0.2785714285714286,
+    "status": "new",
+    "keywords": []
+  }
+]

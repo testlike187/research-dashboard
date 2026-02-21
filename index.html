@@ -4,33 +4,43 @@ title: "CIAS Research Dashboard"
 ---
 
 <div class="dashboard">
-  <h1>📊 AI Robotics Research Dashboard</h1>
-  <p class="subtitle">Collective Intelligence Agent System</p>
+  <h1>CIAS Research Dashboard</h1>
+  <p class="subtitle">Collective Intelligence Agent System — AI Robotics Research Tracking</p>
 
+  <!-- Stats -->
   <div class="stats-grid">
     <div class="stat-card">
-      <h3>📄 Papers</h3>
+      <h3>Papers</h3>
       <p class="stat-number" id="paper-count">-</p>
       <p class="stat-label">tracked papers</p>
     </div>
     <div class="stat-card">
-      <h3>📝 Reviews</h3>
+      <h3>Reviews</h3>
       <p class="stat-number" id="review-count">-</p>
       <p class="stat-label">completed reviews</p>
     </div>
     <div class="stat-card">
-      <h3>🔧 Repos</h3>
+      <h3>Repos</h3>
       <p class="stat-number" id="repo-count">-</p>
-      <p class="stat-label">tested repos</p>
+      <p class="stat-label">tracked repos</p>
     </div>
     <div class="stat-card">
-      <h3>📈 Keywords</h3>
+      <h3>Keywords</h3>
       <p class="stat-number" id="keyword-count">-</p>
       <p class="stat-label">tracked keywords</p>
     </div>
   </div>
 
-  <h2>📰 Latest Reports</h2>
+  <!-- Top Keywords (Trend) -->
+  <h2>Keyword Trends (This Week)</h2>
+  <div class="bar-chart" id="keyword-chart"></div>
+
+  <!-- Top Papers -->
+  <h2>Top Papers</h2>
+  <div id="top-papers" class="paper-list"></div>
+
+  <!-- Latest Reports -->
+  <h2>Latest Reports</h2>
   <ul class="report-list">
     {% for post in site.posts limit:5 %}
     <li>
@@ -40,36 +50,124 @@ title: "CIAS Research Dashboard"
     {% endfor %}
   </ul>
 
+  <!-- Nav -->
   <div class="nav-links">
-    <a href="{{ '/papers/' | relative_url }}">📄 Papers</a>
-    <a href="{{ '/benchmarks/' | relative_url }}">📊 Benchmarks</a>
-    <a href="{{ '/trends/' | relative_url }}">📈 Trends</a>
+    <a href="{{ '/papers/' | relative_url }}">Papers</a>
+    <a href="{{ '/trends/' | relative_url }}">Trends</a>
+    <a href="{{ '/benchmarks/' | relative_url }}">Benchmarks</a>
   </div>
+
+  <p class="updated" id="last-updated"></p>
 </div>
 
 <script>
-  fetch('{{ "/_data/stats.json" | relative_url }}')
-    .then(r => r.json())
-    .then(data => {
-      document.getElementById('paper-count').textContent = data.papers || 0;
-      document.getElementById('review-count').textContent = data.reviews || 0;
-      document.getElementById('repo-count').textContent = data.repos || 0;
-      document.getElementById('keyword-count').textContent = data.keywords || 0;
-    })
-    .catch(() => {});
+const BASE = '{{ "/assets/data" | relative_url }}';
+
+// Stats
+fetch(BASE + '/stats.json')
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById('paper-count').textContent = data.papers || 0;
+    document.getElementById('review-count').textContent = data.reviews || 0;
+    document.getElementById('repo-count').textContent = data.repos || 0;
+    document.getElementById('keyword-count').textContent = data.keywords || 0;
+    document.getElementById('last-updated').textContent = 'Last updated: ' + (data.last_updated || '-');
+  }).catch(() => {});
+
+// Keyword bar chart
+fetch(BASE + '/trends.json')
+  .then(r => r.json())
+  .then(data => {
+    const chart = document.getElementById('keyword-chart');
+    const keywords = (data.keywords || []).slice(0, 10);
+    const maxVal = Math.max(...keywords.map(k => k.this_week), 1);
+    keywords.forEach(kw => {
+      const pct = (kw.this_week / maxVal * 100).toFixed(0);
+      chart.innerHTML += `
+        <div class="bar-row">
+          <span class="bar-label">${kw.keyword}</span>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:${pct}%">${kw.this_week}</div>
+          </div>
+        </div>`;
+    });
+  }).catch(() => {});
+
+// Top papers
+fetch(BASE + '/papers.json')
+  .then(r => r.json())
+  .then(papers => {
+    const container = document.getElementById('top-papers');
+    papers.slice(0, 10).forEach((p, i) => {
+      const kws = (p.keywords || []).map(k => `<span class="tag">${k}</span>`).join(' ');
+      const statusCls = p.status === 'reviewed' ? 'badge-reviewed' : 'badge-new';
+      container.innerHTML += `
+        <div class="paper-card">
+          <div class="paper-rank">#${i + 1}</div>
+          <div class="paper-info">
+            <a href="${p.url}" target="_blank" class="paper-title">${p.title}</a>
+            <div class="paper-meta">
+              <span class="badge ${statusCls}">${p.status || 'new'}</span>
+              <span class="score">Score: ${(p.score || 0).toFixed(2)}</span>
+              <span class="date">${p.date || '-'}</span>
+            </div>
+            <div class="paper-tags">${kws}</div>
+          </div>
+        </div>`;
+    });
+  }).catch(() => {});
 </script>
 
 <style>
-  .dashboard { max-width: 800px; margin: 0 auto; padding: 1rem; }
+  .dashboard { max-width: 900px; margin: 0 auto; padding: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
   .subtitle { color: #666; margin-bottom: 2rem; }
-  .stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-bottom: 2rem; }
-  .stat-card { background: #f8f9fa; border-radius: 8px; padding: 1.5rem; text-align: center; }
-  .stat-number { font-size: 2rem; font-weight: bold; color: #2563eb; margin: 0.5rem 0; }
-  .stat-label { color: #666; font-size: 0.875rem; }
+  h2 { margin-top: 2.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e5e7eb; }
+
+  /* Stats grid */
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1rem; }
+  .stat-card { background: #f8f9fa; border-radius: 8px; padding: 1.2rem; text-align: center; border: 1px solid #e5e7eb; }
+  .stat-card h3 { margin: 0 0 0.3rem; font-size: 0.85rem; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; }
+  .stat-number { font-size: 2rem; font-weight: bold; color: #2563eb; margin: 0; }
+  .stat-label { color: #9ca3af; font-size: 0.75rem; margin: 0; }
+
+  /* Bar chart */
+  .bar-chart { margin: 1rem 0; }
+  .bar-row { display: flex; align-items: center; margin-bottom: 0.4rem; }
+  .bar-label { width: 160px; font-size: 0.85rem; text-align: right; padding-right: 0.75rem; color: #374151; }
+  .bar-track { flex: 1; background: #f3f4f6; border-radius: 4px; height: 24px; }
+  .bar-fill { background: #3b82f6; color: white; font-size: 0.75rem; line-height: 24px; padding: 0 8px; border-radius: 4px; min-width: 28px; text-align: right; }
+
+  /* Paper cards */
+  .paper-list { margin: 1rem 0; }
+  .paper-card { display: flex; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #f3f4f6; }
+  .paper-rank { font-size: 1.2rem; font-weight: bold; color: #9ca3af; min-width: 32px; padding-top: 2px; }
+  .paper-info { flex: 1; }
+  .paper-title { font-weight: 500; color: #1f2937; text-decoration: none; font-size: 0.95rem; }
+  .paper-title:hover { color: #2563eb; }
+  .paper-meta { display: flex; gap: 0.75rem; margin-top: 0.3rem; font-size: 0.8rem; color: #6b7280; align-items: center; }
+  .paper-tags { margin-top: 0.3rem; }
+  .tag { display: inline-block; background: #eff6ff; color: #2563eb; padding: 1px 8px; border-radius: 10px; font-size: 0.7rem; margin-right: 4px; }
+  .badge { padding: 1px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: 500; }
+  .badge-new { background: #dbeafe; color: #2563eb; }
+  .badge-reviewed { background: #d1fae5; color: #059669; }
+  .score { font-weight: 500; }
+
+  /* Reports */
   .report-list { list-style: none; padding: 0; }
-  .report-list li { padding: 0.75rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; }
-  .report-list .date { color: #999; font-size: 0.875rem; }
-  .nav-links { display: flex; gap: 1rem; margin-top: 2rem; }
-  .nav-links a { padding: 0.75rem 1.5rem; background: #2563eb; color: white; border-radius: 6px; text-decoration: none; }
-  @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
+  .report-list li { padding: 0.6rem 0; border-bottom: 1px solid #f3f4f6; display: flex; justify-content: space-between; }
+  .report-list a { text-decoration: none; color: #1f2937; }
+  .report-list a:hover { color: #2563eb; }
+  .report-list .date { color: #9ca3af; font-size: 0.85rem; }
+
+  /* Nav */
+  .nav-links { display: flex; gap: 0.75rem; margin-top: 2rem; }
+  .nav-links a { padding: 0.6rem 1.2rem; background: #2563eb; color: white; border-radius: 6px; text-decoration: none; font-size: 0.9rem; }
+  .nav-links a:hover { background: #1d4ed8; }
+
+  .updated { margin-top: 2rem; color: #9ca3af; font-size: 0.8rem; text-align: center; }
+
+  @media (max-width: 640px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .bar-label { width: 100px; font-size: 0.75rem; }
+  }
 </style>
