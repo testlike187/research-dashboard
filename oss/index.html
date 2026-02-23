@@ -1,0 +1,142 @@
+---
+layout: default
+title: "OSS Tests"
+---
+
+<div class="oss-page">
+  <h1>OSS Test Results</h1>
+  <p class="subtitle">Open Source Repository Installation & Evaluation Status</p>
+
+  <div id="oss-empty" class="empty-state" style="display:none;">
+    <p>No OSS test data yet.</p>
+    <p class="hint">Test data will appear here after running the OSS Test Agent. Results are recorded via <code>TestSetup</code> and <code>TestResult</code> nodes in Neo4j.</p>
+  </div>
+
+  <!-- Summary stats -->
+  <div id="oss-summary" class="stats-row" style="display:none;">
+    <div class="mini-stat">Total: <span id="total-count">0</span></div>
+    <div class="mini-stat completed">Completed: <span id="completed-count">0</span></div>
+    <div class="mini-stat awaiting">Awaiting: <span id="awaiting-count">0</span></div>
+    <div class="mini-stat failed">Failed: <span id="failed-count">0</span></div>
+  </div>
+
+  <!-- Filter -->
+  <div id="oss-filter" style="display:none;">
+    <label>Filter by status:</label>
+    <select id="status-filter">
+      <option value="all">All</option>
+      <option value="completed">Completed</option>
+      <option value="awaiting_approval">Awaiting</option>
+      <option value="failed">Failed</option>
+    </select>
+  </div>
+
+  <table class="oss-table" id="oss-table" style="display:none;">
+    <thead>
+      <tr>
+        <th>Repo</th>
+        <th>Env</th>
+        <th>Python</th>
+        <th>CUDA</th>
+        <th>Feasibility</th>
+        <th>Status</th>
+        <th>Paper</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+const BASE = '{{ "/assets/data" | relative_url }}';
+let allTests = [];
+
+function renderTable(tests) {
+  const tbody = document.querySelector('#oss-table tbody');
+  tbody.innerHTML = '';
+  tests.forEach(t => {
+    const statusCls = t.status === 'completed' ? 'status-ok'
+      : t.status === 'failed' ? 'status-fail' : 'status-wait';
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><a href="${t.url || '#'}" target="_blank">${t.repo || '-'}</a></td>
+      <td>${t.env || '-'}</td>
+      <td>${t.python || '-'}</td>
+      <td>${t.cuda ? 'Yes' : 'No'}</td>
+      <td>${t.feasibility || '-'}</td>
+      <td class="${statusCls}">${t.status || '-'}</td>
+      <td class="paper-col">${t.paper || '-'}</td>
+      <td>${t.test_date || t.proposed_date || '-'}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+fetch(BASE + '/oss_tests.json')
+  .then(r => r.json())
+  .then(tests => {
+    if (!tests || tests.length === 0) {
+      document.getElementById('oss-empty').style.display = 'block';
+      return;
+    }
+
+    allTests = tests;
+    document.getElementById('oss-summary').style.display = 'flex';
+    document.getElementById('oss-filter').style.display = 'block';
+    document.getElementById('oss-table').style.display = 'table';
+
+    document.getElementById('total-count').textContent = tests.length;
+    document.getElementById('completed-count').textContent =
+      tests.filter(t => t.status === 'completed').length;
+    document.getElementById('awaiting-count').textContent =
+      tests.filter(t => t.status === 'awaiting_approval').length;
+    document.getElementById('failed-count').textContent =
+      tests.filter(t => t.status === 'failed').length;
+
+    renderTable(tests);
+
+    document.getElementById('status-filter').addEventListener('change', e => {
+      const val = e.target.value;
+      renderTable(val === 'all' ? allTests : allTests.filter(t => t.status === val));
+    });
+  }).catch(() => {
+    document.getElementById('oss-empty').style.display = 'block';
+  });
+</script>
+
+<style>
+  .oss-page { max-width: 1000px; margin: 0 auto; padding: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  .subtitle { color: #666; margin-bottom: 2rem; }
+
+  .empty-state { text-align: center; padding: 3rem 1rem; color: #6b7280; }
+  .hint { font-size: 0.85rem; color: #9ca3af; }
+  .hint code { background: #f3f4f6; padding: 1px 4px; border-radius: 3px; }
+
+  .stats-row { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .mini-stat { background: #f9fafb; padding: 0.6rem 1rem; border-radius: 6px; font-size: 0.9rem; border: 1px solid #e5e7eb; }
+  .mini-stat span { font-weight: 700; color: #2563eb; }
+  .mini-stat.completed span { color: #059669; }
+  .mini-stat.awaiting span { color: #d97706; }
+  .mini-stat.failed span { color: #dc2626; }
+
+  #oss-filter { margin-bottom: 1rem; }
+  #oss-filter label { font-size: 0.85rem; color: #6b7280; margin-right: 0.5rem; }
+  #status-filter { padding: 0.3rem 0.6rem; border: 1px solid #d1d5db; border-radius: 4px; font-size: 0.85rem; }
+
+  .oss-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  .oss-table th, .oss-table td { padding: 0.5rem 0.6rem; border-bottom: 1px solid #f3f4f6; text-align: left; }
+  .oss-table th { background: #f9fafb; font-size: 0.8rem; color: #6b7280; text-transform: uppercase; }
+  .oss-table a { color: #2563eb; text-decoration: none; }
+  .oss-table a:hover { text-decoration: underline; }
+  .paper-col { max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .status-ok { color: #059669; font-weight: 600; }
+  .status-fail { color: #dc2626; font-weight: 600; }
+  .status-wait { color: #d97706; font-weight: 600; }
+
+  @media (max-width: 768px) {
+    .oss-table { font-size: 0.8rem; }
+    .oss-table th, .oss-table td { padding: 0.4rem; }
+  }
+</style>

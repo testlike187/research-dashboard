@@ -1,0 +1,58 @@
+[
+  {
+    "repo": "BrainRVQ",
+    "url": "https://github.com/keqicmz/BrainRVQ",
+    "env": "uv",
+    "python": "3.10",
+    "cuda": "",
+    "feasibility": "partial",
+    "status": "awaiting_approval",
+    "proposed_date": "2026-02-22",
+    "install_ok": null,
+    "eval_ok": null,
+    "test_date": null,
+    "paper": null
+  },
+  {
+    "repo": "Eagle",
+    "url": "https://github.com/shengtun/Eagle",
+    "env": "uv",
+    "python": "3.10",
+    "cuda": "11.4",
+    "feasibility": "partial",
+    "status": "awaiting_approval",
+    "proposed_date": "2026-02-22",
+    "install_ok": null,
+    "eval_ok": null,
+    "test_date": null,
+    "paper": null
+  },
+  {
+    "repo": "StereoAdapter-2",
+    "url": "https://github.com/AIGeeksGroup/StereoAdapter-2",
+    "env": "uv",
+    "python": "3.10",
+    "cuda": "",
+    "feasibility": "partial",
+    "status": "awaiting_approval",
+    "proposed_date": "2026-02-22",
+    "install_ok": null,
+    "eval_ok": null,
+    "test_date": null,
+    "paper": null
+  },
+  {
+    "repo": "DreamDojo",
+    "url": "https://github.com/NVIDIA/DreamDojo",
+    "env": "uv",
+    "python": "3.10",
+    "cuda": "12.8",
+    "feasibility": "partial",
+    "status": "completed",
+    "proposed_date": "2026-02-21",
+    "install_ok": null,
+    "eval_ok": null,
+    "test_date": null,
+    "paper": null
+  }
+]
