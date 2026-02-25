@@ -1,5 +1,47 @@
 [
   {
+    "repo": "Xiaomi-Robotics-0",
+    "url": "https://github.com/XiaomiRobotics/Xiaomi-Robotics-0",
+    "env": "conda",
+    "python": "3.12",
+    "cuda": "12.8",
+    "feasibility": "partial",
+    "status": "awaiting_approval",
+    "proposed_date": "2026-02-24",
+    "install_ok": null,
+    "eval_ok": null,
+    "test_date": null,
+    "paper": null
+  },
+  {
+    "repo": "starVLA",
+    "url": "https://github.com/starVLA/starVLA",
+    "env": "conda",
+    "python": "3.10",
+    "cuda": "yes",
+    "feasibility": "partial",
+    "status": "awaiting_approval",
+    "proposed_date": "2026-02-24",
+    "install_ok": null,
+    "eval_ok": null,
+    "test_date": null,
+    "paper": null
+  },
+  {
+    "repo": "SimVLA",
+    "url": "https://github.com/LUOyk1999/SimVLA",
+    "env": "conda",
+    "python": "3.10",
+    "cuda": "12.4",
+    "feasibility": "partial",
+    "status": "awaiting_approval",
+    "proposed_date": "2026-02-24",
+    "install_ok": null,
+    "eval_ok": null,
+    "test_date": null,
+    "paper": null
+  },
+  {
     "repo": "BrainRVQ",
     "url": "https://github.com/keqicmz/BrainRVQ",
     "env": "uv",
