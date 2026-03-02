@@ -12,6 +12,19 @@
     ]
   },
   {
+    "title": "DySL-VLA: Efficient Vision-Language-Action Model Inference via Dynamic-Static Layer-Skipping for Robot Manipulation",
+    "url": "http://arxiv.org/abs/2602.22896v1",
+    "date": "2026-02-26",
+    "score": 0.6857142857142857,
+    "status": "new",
+    "keywords": [
+      "Manipulation",
+      "Robot Manipulation",
+      "Vision-Language-Action",
+      "VLA"
+    ]
+  },
+  {
     "title": "FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment",
     "url": "http://arxiv.org/abs/2602.17259v1",
     "date": "2026-02-19",
@@ -57,6 +70,41 @@
       "Humanoid",
       "Imitation Learning",
       "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Physics Informed Viscous Value Representations",
+    "url": "http://arxiv.org/abs/2602.23280v1",
+    "date": "2026-02-26",
+    "score": 0.5857142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "SPARR: Simulation-based Policies with Asymmetric Real-world Residuals for Assembly",
+    "url": "http://arxiv.org/abs/2602.23253v1",
+    "date": "2026-02-26",
+    "score": 0.5857142857142857,
+    "status": "new",
+    "keywords": [
+      "Sim-to-Real",
+      "Reinforcement Learning",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "GraspLDP: Towards Generalizable Grasping Policy via Latent Diffusion",
+    "url": "http://arxiv.org/abs/2602.22862v1",
+    "date": "2026-02-26",
+    "score": 0.5857142857142857,
+    "status": "new",
+    "keywords": [
+      "Diffusion Policy",
+      "Imitation Learning",
+      "Manipulation"
     ]
   },
   {
@@ -108,6 +156,50 @@
     ]
   },
   {
+    "title": "A Perspective on Open Challenges in Deformable Object Manipulation",
+    "url": "http://arxiv.org/abs/2602.22998v1",
+    "date": "2026-02-26",
+    "score": 0.4857142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Simple Models, Real Swimming: Digital Twins for Tendon-Driven Underwater Robots",
+    "url": "http://arxiv.org/abs/2602.23283v1",
+    "date": "2026-02-26",
+    "score": 0.4857142857142857,
+    "status": "new",
+    "keywords": [
+      "MuJoCo",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "GeoWorld: Geometric World Models",
+    "url": "http://arxiv.org/abs/2602.23058v1",
+    "date": "2026-02-26",
+    "score": 0.4857142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+    "url": "http://arxiv.org/abs/2602.23259v1",
+    "date": "2026-02-26",
+    "score": 0.4857142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model",
+      "Imitation Learning"
+    ]
+  },
+  {
     "title": "Continual uncertainty learning",
     "url": "http://arxiv.org/abs/2602.17174v1",
     "date": "2026-02-19",
@@ -123,6 +215,39 @@
     "url": "http://arxiv.org/abs/2602.16951v1",
     "date": "2026-02-18",
     "score": 0.45714285714285713,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents",
+    "url": "http://arxiv.org/abs/2602.23205v1",
+    "date": "2026-02-26",
+    "score": 0.43571428571428567,
+    "status": "new",
+    "keywords": [
+      "Sim-to-Real",
+      "Embodied AI",
+      "Humanoid"
+    ]
+  },
+  {
+    "title": "MetaOthello: A Controlled Study of Multiple World Models in Transformers",
+    "url": "http://arxiv.org/abs/2602.23164v1",
+    "date": "2026-02-26",
+    "score": 0.43571428571428567,
+    "status": "new",
+    "keywords": [
+      "Foundation Model",
+      "World Model"
+    ]
+  },
+  {
+    "title": "SubspaceAD: Training-Free Few-Shot Anomaly Detection via Subspace Modeling",
+    "url": "http://arxiv.org/abs/2602.23013v1",
+    "date": "2026-02-26",
+    "score": 0.43571428571428567,
     "status": "new",
     "keywords": [
       "Foundation Model"
@@ -228,6 +353,46 @@
     "status": "new",
     "keywords": [
       "Sim-to-Real"
+    ]
+  },
+  {
+    "title": "Interface-Aware Trajectory Reconstruction of Limited Demonstrations for Robot Learning",
+    "url": "http://arxiv.org/abs/2602.23287v1",
+    "date": "2026-02-26",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Robot Learning"
+    ]
+  },
+  {
+    "title": "InCoM: Intent-Driven Perception and Structured Coordination for Whole-Body Mobile Manipulation",
+    "url": "http://arxiv.org/abs/2602.23024v1",
+    "date": "2026-02-26",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "DigiArm: An Anthropomorphic 3D-Printed Prosthetic Hand with Enhanced Dexterity for Typing Tasks",
+    "url": "http://arxiv.org/abs/2602.23017v1",
+    "date": "2026-02-26",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Towards Intelligible Human-Robot Interaction: An Active Inference Approach to Occluded Pedestrian Scenarios",
+    "url": "http://arxiv.org/abs/2602.23109v1",
+    "date": "2026-02-26",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
     ]
   },
   {
@@ -501,6 +666,86 @@
     ]
   },
   {
+    "title": "The AI Research Assistant: Promise, Peril, and a Proof of Concept",
+    "url": "http://arxiv.org/abs/2602.22842v1",
+    "date": "2026-02-26",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "A Model-Free Universal AI",
+    "url": "http://arxiv.org/abs/2602.23242v1",
+    "date": "2026-02-26",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Learning-based Multi-agent Race Strategies in Formula 1",
+    "url": "http://arxiv.org/abs/2602.23056v1",
+    "date": "2026-02-26",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization",
+    "url": "http://arxiv.org/abs/2602.23008v1",
+    "date": "2026-02-26",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "The Trinity of Consistency as a Defining Principle for General World Models",
+    "url": "http://arxiv.org/abs/2602.23152v1",
+    "date": "2026-02-26",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "On Sample-Efficient Generalized Planning via Learned Transition Models",
+    "url": "http://arxiv.org/abs/2602.23148v1",
+    "date": "2026-02-26",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "Multi-agent imitation learning with function approximation: Linear Markov games and beyond",
+    "url": "http://arxiv.org/abs/2602.22810v1",
+    "date": "2026-02-26",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Imitation Learning"
+    ]
+  },
+  {
+    "title": "SC-Arena: A Natural Language Benchmark for Single-Cell Reasoning with Knowledge-Augmented Evaluation",
+    "url": "http://arxiv.org/abs/2602.23199v1",
+    "date": "2026-02-26",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
     "title": "World-Model-Augmented Web Agents with Action Correction",
     "url": "http://arxiv.org/abs/2602.15384v1",
     "date": "2026-02-17",
@@ -508,6 +753,26 @@
     "status": "new",
     "keywords": [
       "World Model"
+    ]
+  },
+  {
+    "title": "BetterScene: 3D Scene Synthesis with Representation-Aligned Generative Model",
+    "url": "http://arxiv.org/abs/2602.22596v1",
+    "date": "2026-02-26",
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "TopoEdit: Fast Post-Optimization Editing of Topology Optimized Structures",
+    "url": "http://arxiv.org/abs/2602.22430v1",
+    "date": "2026-02-25",
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
     ]
   },
   {
@@ -571,6 +836,22 @@
     "keywords": [
       "World Model"
     ]
+  },
+  {
+    "title": "Automated Robotic Needle Puncture for Percutaneous Dilatational Tracheostomy",
+    "url": "http://arxiv.org/abs/2602.22952v1",
+    "date": "2026-02-26",
+    "score": 0.2857142857142857,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "Performance and Experimental Analysis of Strain-based Models for Continuum Robots",
+    "url": "http://arxiv.org/abs/2602.22854v1",
+    "date": "2026-02-26",
+    "score": 0.2857142857142857,
+    "status": "new",
+    "keywords": []
   },
   {
     "title": "Art2Mus: Artwork-to-Music Generation via Visual Conditioning and Large-Scale Cross-Modal Alignment",
@@ -645,6 +926,64 @@
     ]
   },
   {
+    "title": "Make It Hard to Hear, Easy to Learn: Long-Form Bengali ASR and Speaker Diarization via Extreme Augmentation and Perfect Alignment",
+    "url": "http://arxiv.org/abs/2602.23070v1",
+    "date": "2026-02-26",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models",
+    "url": "http://arxiv.org/abs/2602.22960v1",
+    "date": "2026-02-26",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
+    "url": "http://arxiv.org/abs/2602.22920v1",
+    "date": "2026-02-26",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Sim-to-Real"
+    ]
+  },
+  {
+    "title": "A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling",
+    "url": "http://arxiv.org/abs/2602.22843v1",
+    "date": "2026-02-26",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Spectrally Distilled Representations Aligned with Instruction-Augmented LLMs for Satellite Imagery",
+    "url": "http://arxiv.org/abs/2602.22613v1",
+    "date": "2026-02-26",
+    "score": 0.2142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Mixed Magnification Aggregation for Generalizable Region-Level Representations in Computational Pathology",
+    "url": "http://arxiv.org/abs/2602.22176v1",
+    "date": "2026-02-25",
+    "score": 0.2142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
     "title": "Deep Reinforcement Learning for Optimal Portfolio Allocation: A Comparative Study with Mean-Variance Optimization",
     "url": "http://arxiv.org/abs/2602.17098v1",
     "date": "2026-02-19",
@@ -653,5 +992,63 @@
     "keywords": [
       "Reinforcement Learning"
     ]
+  },
+  {
+    "title": "Agency and Architectural Limits: Why Optimization-Based Systems Cannot Be Norm-Responsive",
+    "url": "http://arxiv.org/abs/2602.23239v1",
+    "date": "2026-02-26",
+    "score": 0.1007142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "TabDLM: Free-Form Tabular Data Generation via Joint Numerical-Language Diffusion",
+    "url": "http://arxiv.org/abs/2602.22586v1",
+    "date": "2026-02-26",
+    "score": 0.09428571428571428,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Enabling clinical use of foundation models in histopathology",
+    "url": "http://arxiv.org/abs/2602.22347v1",
+    "date": "2026-02-25",
+    "score": 0.09428571428571428,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2602.23363v1",
+    "date": "2026-02-26",
+    "score": 0.07071428571428572,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy",
+    "url": "http://arxiv.org/abs/2602.23088v1",
+    "date": "2026-02-26",
+    "score": 0.07071428571428572,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Chain of Flow: A Foundational Generative Framework for ECG-to-4D Cardiac Digital Twins",
+    "url": "http://arxiv.org/abs/2602.22919v1",
+    "date": "2026-02-26",
+    "score": 0.04071428571428571,
+    "status": "new",
+    "keywords": []
   }
 ]

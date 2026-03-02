@@ -1,4 +1,112 @@
 {
-  "keywords": [],
-  "researchers": []
+  "keywords": [
+    {
+      "keyword": "Reinforcement Learning",
+      "this_week": 11
+    },
+    {
+      "keyword": "Foundation Model",
+      "this_week": 11
+    },
+    {
+      "keyword": "Manipulation",
+      "this_week": 8
+    },
+    {
+      "keyword": "World Model",
+      "this_week": 6
+    },
+    {
+      "keyword": "Sim-to-Real",
+      "this_week": 3
+    },
+    {
+      "keyword": "Imitation Learning",
+      "this_week": 3
+    },
+    {
+      "keyword": "Robot Manipulation",
+      "this_week": 1
+    },
+    {
+      "keyword": "Vision-Language-Action",
+      "this_week": 1
+    },
+    {
+      "keyword": "VLA",
+      "this_week": 1
+    },
+    {
+      "keyword": "Diffusion Policy",
+      "this_week": 1
+    },
+    {
+      "keyword": "MuJoCo",
+      "this_week": 1
+    },
+    {
+      "keyword": "Embodied AI",
+      "this_week": 1
+    },
+    {
+      "keyword": "Humanoid",
+      "this_week": 1
+    },
+    {
+      "keyword": "Robot Learning",
+      "this_week": 1
+    }
+  ],
+  "researchers": [
+    {
+      "name": "Shaoshan Liu",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Bo Yu",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Tong Xie",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Yijiahao Qi",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Zebin Yang",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Aniket Bera",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Ziran Wang",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Damon Conover",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "S. Talha Bukhari",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Meng Li",
+      "affiliation": null,
+      "count": 1
+    }
+  ]
 }
