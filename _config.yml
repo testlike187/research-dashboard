@@ -2,6 +2,7 @@ title: "CIAS Research Dashboard"
 description: "AI Robotics Research Tracking Dashboard"
 baseurl: "/research-dashboard"
 theme: minima
+future: true
 
 collections:
   posts:
