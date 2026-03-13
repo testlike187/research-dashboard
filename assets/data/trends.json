@@ -1,85 +1,71 @@
 {
   "keywords": [
     {
-      "keyword": "Manipulation",
-      "this_week": 24
-    },
-    {
       "keyword": "Reinforcement Learning",
-      "this_week": 23
+      "this_week": 21
     },
     {
       "keyword": "Foundation Model",
-      "this_week": 22
+      "this_week": 18
     },
     {
-      "keyword": "Imitation Learning",
-      "this_week": 11
+      "keyword": "Manipulation",
+      "this_week": 12
     },
     {
       "keyword": "VLA",
-      "this_week": 7
-    },
-    {
-      "keyword": "Vision-Language-Action",
-      "this_week": 7
+      "this_week": 5
     },
     {
       "keyword": "Locomotion",
-      "this_week": 6
+      "this_week": 5
+    },
+    {
+      "keyword": "Vision-Language-Action",
+      "this_week": 4
     },
     {
       "keyword": "World Model",
-      "this_week": 6
-    },
-    {
-      "keyword": "Diffusion Policy",
-      "this_week": 4
-    },
-    {
-      "keyword": "Robot Manipulation",
-      "this_week": 4
+      "this_week": 3
     },
     {
       "keyword": "Sim-to-Real",
-      "this_week": 4
+      "this_week": 3
+    },
+    {
+      "keyword": "Imitation Learning",
+      "this_week": 2
     },
     {
       "keyword": "Bimanual",
-      "this_week": 3
+      "this_week": 2
     },
     {
-      "keyword": "MuJoCo",
-      "this_week": 3
+      "keyword": "Robot Manipulation",
+      "this_week": 2
     },
     {
       "keyword": "Humanoid",
-      "this_week": 3
+      "this_week": 2
+    },
+    {
+      "keyword": "Diffusion Policy",
+      "this_week": 1
     },
     {
       "keyword": "Embodied AI",
       "this_week": 1
     },
     {
-      "keyword": "Spatial Intelligence",
+      "keyword": "MuJoCo",
       "this_week": 1
     },
     {
-      "keyword": "Robot Learning",
+      "keyword": "Spatial Intelligence",
       "this_week": 1
     }
   ],
   "researchers": [
-    {
-      "name": "Bowen Chen",
-      "affiliation": null,
-      "count": 2
-    },
-    {
-      "name": "Zewen Yang",
-      "affiliation": null,
-      "count": 2
-    },
     {
       "name": "Carolin Schmidt",
       "affiliation": null,
@@ -91,17 +77,12 @@
       "count": 2
     },
     {
-      "name": "Zhixuan Liang",
+      "name": "Bowen Chen",
       "affiliation": null,
       "count": 2
     },
     {
-      "name": "Bingkun Huang",
-      "affiliation": null,
-      "count": 2
-    },
-    {
-      "name": "Xuanyao Mao",
+      "name": "Bingchuan Sun",
       "affiliation": null,
       "count": 1
     },
@@ -111,12 +92,27 @@
       "count": 1
     },
     {
-      "name": "Bingchuan Sun",
+      "name": "Xuanyao Mao",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Xinyue Tang",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Ruiyi Zhan",
       "affiliation": null,
       "count": 1
     },
     {
       "name": "Yizhi Wang",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Haiyan Liu",
       "affiliation": null,
       "count": 1
     }
