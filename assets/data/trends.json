@@ -2,47 +2,35 @@
   "keywords": [
     {
       "keyword": "Reinforcement Learning",
-      "this_week": 31
+      "this_week": 25
     },
     {
       "keyword": "Manipulation",
-      "this_week": 22
+      "this_week": 18
     },
     {
       "keyword": "Foundation Model",
-      "this_week": 21
+      "this_week": 15
     },
     {
       "keyword": "World Model",
-      "this_week": 9
-    },
-    {
-      "keyword": "Imitation Learning",
-      "this_week": 7
-    },
-    {
-      "keyword": "Vision-Language-Action",
-      "this_week": 6
-    },
-    {
-      "keyword": "Sim-to-Real",
-      "this_week": 6
-    },
-    {
-      "keyword": "VLA",
       "this_week": 5
     },
     {
-      "keyword": "Humanoid",
+      "keyword": "Imitation Learning",
+      "this_week": 4
+    },
+    {
+      "keyword": "Vision-Language-Action",
       "this_week": 3
+    },
+    {
+      "keyword": "Humanoid",
+      "this_week": 2
     },
     {
       "keyword": "Locomotion",
-      "this_week": 3
-    },
-    {
-      "keyword": "Diffusion Policy",
-      "this_week": 3
+      "this_week": 2
     },
     {
       "keyword": "MuJoCo",
@@ -53,11 +41,23 @@
       "this_week": 2
     },
     {
+      "keyword": "VLA",
+      "this_week": 2
+    },
+    {
       "keyword": "Bimanual",
       "this_week": 1
     },
     {
       "keyword": "Robot Learning",
+      "this_week": 1
+    },
+    {
+      "keyword": "Sim-to-Real",
+      "this_week": 1
+    },
+    {
+      "keyword": "Diffusion Policy",
       "this_week": 1
     }
   ],
@@ -68,7 +68,7 @@
       "count": 3
     },
     {
-      "name": "Bo Liu",
+      "name": "Xuming Hu",
       "affiliation": null,
       "count": 2
     },
@@ -88,7 +88,7 @@
       "count": 2
     },
     {
-      "name": "Xiangyu Zhao",
+      "name": "Bo Liu",
       "affiliation": null,
       "count": 2
     },
@@ -108,7 +108,7 @@
       "count": 2
     },
     {
-      "name": "Xuming Hu",
+      "name": "Xu Zheng",
       "affiliation": null,
       "count": 2
     }
