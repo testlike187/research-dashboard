@@ -2,99 +2,67 @@
   "keywords": [
     {
       "keyword": "Reinforcement Learning",
-      "this_week": 30,
-      "last_week": 31,
-      "change": -3
+      "this_week": 30
     },
     {
       "keyword": "Foundation Model",
-      "this_week": 22,
-      "last_week": 21,
-      "change": 4
+      "this_week": 22
     },
     {
       "keyword": "Manipulation",
-      "this_week": 21,
-      "last_week": 22,
-      "change": -4
+      "this_week": 21
     },
     {
       "keyword": "World Model",
-      "this_week": 12,
-      "last_week": 9,
-      "change": 33
+      "this_week": 12
     },
     {
       "keyword": "Vision-Language-Action",
-      "this_week": 9,
-      "last_week": 6,
-      "change": 50
+      "this_week": 9
     },
     {
       "keyword": "VLA",
-      "this_week": 8,
-      "last_week": 5,
-      "change": 60
+      "this_week": 8
     },
     {
       "keyword": "Sim-to-Real",
-      "this_week": 7,
-      "last_week": 6,
-      "change": 16
+      "this_week": 7
     },
     {
       "keyword": "Imitation Learning",
-      "this_week": 7,
-      "last_week": 7,
-      "change": 0
+      "this_week": 7
     },
     {
       "keyword": "Locomotion",
-      "this_week": 6,
-      "last_week": 3,
-      "change": 100
+      "this_week": 6
     },
     {
       "keyword": "Humanoid",
-      "this_week": 4,
-      "last_week": 3,
-      "change": 33
+      "this_week": 4
     },
     {
       "keyword": "MuJoCo",
-      "this_week": 3,
-      "last_week": 2,
-      "change": 50
+      "this_week": 3
     },
     {
       "keyword": "Robot Learning",
-      "this_week": 2,
-      "last_week": 1,
-      "change": 100
+      "this_week": 2
     },
     {
       "keyword": "Robot Manipulation",
-      "this_week": 1,
-      "last_week": 0,
-      "change": 100
+      "this_week": 1
     },
     {
       "keyword": "Spatial Intelligence",
-      "this_week": 1,
-      "last_week": 2,
-      "change": -50
+      "this_week": 1
     },
     {
       "keyword": "Embodied AI",
-      "this_week": 1,
-      "last_week": 0,
-      "change": 100
+      "this_week": 1
     },
     {
       "keyword": "Bimanual",
-      "this_week": 1,
-      "last_week": 1,
-      "change": 0
+      "this_week": 1
     }
   ],
   "researchers": [
