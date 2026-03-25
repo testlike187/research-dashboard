@@ -2,7 +2,7 @@
   "keywords": [
     {
       "keyword": "Reinforcement Learning",
-      "this_week": 30
+      "this_week": 28
     },
     {
       "keyword": "Foundation Model",
@@ -10,11 +10,11 @@
     },
     {
       "keyword": "Manipulation",
-      "this_week": 21
+      "this_week": 20
     },
     {
       "keyword": "World Model",
-      "this_week": 12
+      "this_week": 10
     },
     {
       "keyword": "Vision-Language-Action",
@@ -25,16 +25,16 @@
       "this_week": 8
     },
     {
-      "keyword": "Sim-to-Real",
-      "this_week": 7
+      "keyword": "Imitation Learning",
+      "this_week": 6
     },
     {
-      "keyword": "Imitation Learning",
-      "this_week": 7
+      "keyword": "Sim-to-Real",
+      "this_week": 5
     },
     {
       "keyword": "Locomotion",
-      "this_week": 6
+      "this_week": 5
     },
     {
       "keyword": "Humanoid",
