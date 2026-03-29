@@ -1,153 +1,475 @@
 [
   {
-    "title": "Efficient and Reliable Teleoperation through Real-to-Sim-to-Real Shared Autonomy",
-    "url": "http://arxiv.org/abs/2603.17016v1",
-    "date": "2026-03-17",
-    "score": 0.7428571428571429,
+    "title": "No Priors Episode | Conviction",
+    "url": "https://www.sunday.ai/journal",
+    "date": "2026-02-21",
+    "score": 0.3,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "ACT-1: A Robot Foundation Model Trained on Zero Robot Data",
+    "url": "https://www.sunday.ai/journal",
+    "date": "2026-02-21",
+    "score": 0.3,
     "status": "new",
     "keywords": [
-      "Sim-to-Real",
-      "Imitation Learning",
-      "Reinforcement Learning",
-      "Manipulation"
+      "Foundation Model"
     ]
   },
   {
-    "title": "HumDex:Humanoid Dexterous Manipulation Made Easy",
-    "url": "http://arxiv.org/abs/2603.12260v1",
-    "date": "2026-03-12",
-    "score": 0.6857142857142857,
+    "title": "Featured Publications",
+    "url": "https://www.tri.global/research/careful-examination-large-behavior-models-multitask-dexterous-manipulation",
+    "date": "2026-02-21",
+    "score": 0.3,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "This Home Robot Clears Tables and Loads the Dishwasher All by Itself",
+    "url": "https://www.sunday.ai/journal",
+    "date": "2026-02-21",
+    "score": 0.3,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "Reverso: Efficient Time Series Foundation Models for Zero-shot Forecasting",
+    "url": "http://arxiv.org/abs/2602.17634v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
     "status": "new",
     "keywords": [
-      "Imitation Learning",
-      "Humanoid",
-      "Manipulation"
+      "Foundation Model"
     ]
   },
   {
-    "title": "CDF-Glove: A Cable-Driven Force Feedback Glove for Dexterous Teleoperation",
-    "url": "http://arxiv.org/abs/2603.05804v1",
-    "date": "2026-03-06",
-    "score": 0.6857142857142857,
+    "title": "Structured Prototype-Guided Adaptation for EEG Foundation Models",
+    "url": "http://arxiv.org/abs/2602.17251v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
     "status": "new",
     "keywords": [
-      "Diffusion Policy",
-      "Imitation Learning",
-      "Bimanual",
-      "Manipulation"
+      "Foundation Model"
     ]
   },
   {
-    "title": "Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models",
-    "url": "http://arxiv.org/abs/2603.06049v1",
-    "date": "2026-03-06",
-    "score": 0.6857142857142857,
+    "title": "RLGT: A reinforcement learning framework for extremal graph theory",
+    "url": "http://arxiv.org/abs/2602.17276v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
     "status": "new",
     "keywords": [
-      "Imitation Learning",
-      "Reinforcement Learning",
-      "VLA"
-    ]
-  },
-  {
-    "title": "Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching",
-    "url": "http://arxiv.org/abs/2602.15827v1",
-    "date": "2026-02-17",
-    "score": 0.6857142857142857,
-    "status": "new",
-    "keywords": [
-      "Humanoid",
-      "Locomotion",
       "Reinforcement Learning"
     ]
   },
   {
-    "title": "DySL-VLA: Efficient Vision-Language-Action Model Inference via Dynamic-Static Layer-Skipping for Robot Manipulation",
-    "url": "http://arxiv.org/abs/2602.22896v1",
-    "date": "2026-02-26",
-    "score": 0.6857142857142857,
+    "title": "SMAC: Score-Matched Actor-Critics for Robust Offline-to-Online Transfer",
+    "url": "http://arxiv.org/abs/2602.17632v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
     "status": "new",
     "keywords": [
-      "Manipulation",
-      "Robot Manipulation",
-      "Vision-Language-Action",
-      "VLA"
+      "Reinforcement Learning"
     ]
   },
   {
-    "title": "Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning",
-    "url": "http://arxiv.org/abs/2603.11653v1",
-    "date": "2026-03-12",
-    "score": 0.6857142857142857,
+    "title": "Dynamic Decision-Making under Model Misspecification: A Stochastic Stability Approach",
+    "url": "http://arxiv.org/abs/2602.17086v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
     "status": "new",
     "keywords": [
-      "Reinforcement Learning",
-      "Vision-Language-Action",
-      "VLA"
+      "Reinforcement Learning"
     ]
   },
   {
-    "title": "VPWEM: Non-Markovian Visuomotor Policy with Working and Episodic Memory",
-    "url": "http://arxiv.org/abs/2603.04910v1",
-    "date": "2026-03-05",
-    "score": 0.6642857142857144,
+    "title": "Adapting Actively on the Fly: Relevance-Guided Online Meta-Learning with Latent Concepts for Geospatial Discovery",
+    "url": "http://arxiv.org/abs/2602.17605v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
     "status": "new",
     "keywords": [
-      "Imitation Learning",
-      "Manipulation",
-      "Vision-Language-Action",
-      "VLA"
+      "Reinforcement Learning"
     ]
   },
   {
-    "title": "UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data",
-    "url": "http://arxiv.org/abs/2603.05312v1",
-    "date": "2026-03-05",
-    "score": 0.6642857142857144,
+    "title": "Systematic Evaluation of Single-Cell Foundation Model Interpretability Reveals Attention Captures Co-Expression Rather Than Unique Regulatory Signal",
+    "url": "http://arxiv.org/abs/2602.17532v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
     "status": "new",
     "keywords": [
-      "Sim-to-Real",
-      "Bimanual",
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "A Cost-Effective and Climate-Resilient Air Pressure System for Rain Effect Reduction on Automated Vehicle Cameras",
+    "url": "http://arxiv.org/abs/2602.17472v1",
+    "date": "2026-02-19",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "Art2Mus: Artwork-to-Music Generation via Visual Conditioning and Large-Scale Cross-Modal Alignment",
+    "url": "http://arxiv.org/abs/2602.17599v1",
+    "date": "2026-02-19",
+    "score": 0.2785714285714286,
+    "status": "new",
+    "keywords": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "Attachment Anchors: A Novel Framework for Laparoscopic Grasping Point Prediction in Colorectal Surgery",
+    "url": "http://arxiv.org/abs/2602.17310v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": [
       "Manipulation"
     ]
   },
   {
-    "title": "SeedPolicy: Horizon Scaling via Self-Evolving Diffusion Policy for Robot Manipulation",
-    "url": "http://arxiv.org/abs/2603.05117v1",
-    "date": "2026-03-05",
-    "score": 0.6642857142857144,
+    "title": "Continual learning and refinement of causal models through dynamic predicate invention",
+    "url": "http://arxiv.org/abs/2602.17217v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
     "status": "new",
     "keywords": [
-      "Diffusion Policy",
-      "Imitation Learning",
-      "Manipulation",
-      "Robot Manipulation",
-      "Vision-Language-Action"
+      "World Model"
     ]
   },
   {
-    "title": "RL-Augmented MPC for Non-Gaited Legged and Hybrid Locomotion",
-    "url": "http://arxiv.org/abs/2603.10878v1",
-    "date": "2026-03-11",
-    "score": 0.6642857142857144,
+    "title": "Visual Model Checking: Graph-Based Inference of Visual Routines for Image Retrieval",
+    "url": "http://arxiv.org/abs/2602.17386v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
     "status": "new",
     "keywords": [
-      "Sim-to-Real",
-      "Reinforcement Learning",
-      "Locomotion",
-      "Humanoid"
+      "Deep Learning"
     ]
   },
   {
-    "title": "Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation",
-    "url": "http://arxiv.org/abs/2602.16705v1",
-    "date": "2026-02-18",
+    "title": "Proximal powered knee placement: a case study",
+    "url": "http://arxiv.org/abs/2602.17502v1",
+    "date": "2026-02-19",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "ODESteer: A Unified ODE-Based Steering Framework for LLM Alignment",
+    "url": "http://arxiv.org/abs/2602.17560v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment",
+    "url": "http://arxiv.org/abs/2602.17259v1",
+    "date": "2026-02-19",
     "score": 0.6071428571428572,
     "status": "new",
     "keywords": [
-      "Humanoid",
-      "Manipulation",
+      "Foundation Model",
+      "World Model",
+      "VLA"
+    ]
+  },
+  {
+    "title": "EAGLE: Expert-Augmented Attention Guidance for Tuning-Free Industrial Anomaly Detection in Multimodal Large Language Models",
+    "url": "http://arxiv.org/abs/2602.17419v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "Stable Asynchrony: Variance-Controlled Off-Policy RL for LLMs",
+    "url": "http://arxiv.org/abs/2602.17616v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Nonlinear Predictive Control of the Continuum and Hybrid Dynamics of a Suspended Deformable Cable for Aerial Pick and Place",
+    "url": "http://arxiv.org/abs/2602.17199v1",
+    "date": "2026-02-19",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Decoding the Human Factor: High Fidelity Behavioral Prediction for Strategic Foresight",
+    "url": "http://arxiv.org/abs/2602.17222v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures",
+    "url": "http://arxiv.org/abs/2602.17162v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "A.R.I.S.: Automated Recycling Identification System for E-Waste Classification Using Deep Learning",
+    "url": "http://arxiv.org/abs/2602.17642v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "Deep Reinforcement Learning for Optimal Portfolio Allocation: A Comparative Study with Mean-Variance Optimization",
+    "url": "http://arxiv.org/abs/2602.17098v1",
+    "date": "2026-02-19",
+    "score": 0.10714285714285714,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "IRIS: Learning-Driven Task-Specific Cinema Robot Arm for Visuomotor Motion Control",
+    "url": "http://arxiv.org/abs/2602.17537v1",
+    "date": "2026-02-19",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
       "Imitation Learning"
+    ]
+  },
+  {
+    "title": "2Mamba2Furious: Linear in Complexity, Competitive in Accuracy",
+    "url": "http://arxiv.org/abs/2602.17363v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "RetouchIQ: MLLM Agents for Instruction-Based Image Retouching with Generalist Reward",
+    "url": "http://arxiv.org/abs/2602.17558v1",
+    "date": "2026-02-19",
+    "score": 0.2785714285714286,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Leveraging Contrastive Learning for a Similarity-Guided Tampered Document Data Generation Pipeline",
+    "url": "http://arxiv.org/abs/2602.17322v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Continual uncertainty learning",
+    "url": "http://arxiv.org/abs/2602.17174v1",
+    "date": "2026-02-19",
+    "score": 0.45714285714285713,
+    "status": "new",
+    "keywords": [
+      "Sim-to-Real",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
+    "url": "http://arxiv.org/abs/2602.17594v1",
+    "date": "2026-02-19",
+    "score": 0.2785714285714286,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "Tracing Copied Pixels and Regularizing Patch Affinity in Copy Detection",
+    "url": "http://arxiv.org/abs/2602.17484v1",
+    "date": "2026-02-19",
+    "score": 0.2571428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "Benchmarking the Effects of Object Pose Estimation and Reconstruction on Robotic Grasping Success",
+    "url": "http://arxiv.org/abs/2602.17101v1",
+    "date": "2026-02-19",
+    "score": 0.3071428571428571,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "LexiSafe: Offline Safe Reinforcement Learning with Lexicographic Safety-Reward Hierarchy",
+    "url": "http://arxiv.org/abs/2602.17312v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Physical Human-Robot Interaction for Grasping in Augmented Reality via Rigid-Soft Robot Synergy",
+    "url": "http://arxiv.org/abs/2602.17128v1",
+    "date": "2026-02-19",
+    "score": 0.3071428571428571,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "MASPO: Unifying Gradient Utilization, Probability Mass, and Signal Reliability for Robust and Sample-Efficient LLM Reasoning",
+    "url": "http://arxiv.org/abs/2602.17550v1",
+    "date": "2026-02-19",
+    "score": 0.3785714285714286,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "What Breaks Embodied AI Security:LLM Vulnerabilities, CPS Flaws,or Something Else?",
+    "url": "http://arxiv.org/abs/2602.17345v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Embodied AI"
+    ]
+  },
+  {
+    "title": "The Bots of Persuasion: Examining How Conversational Agents' Linguistic Expressions of Personality Affect User Perceptions and Decisions",
+    "url": "http://arxiv.org/abs/2602.17185v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs",
+    "url": "http://arxiv.org/abs/2602.17659v1",
+    "date": "2026-02-19",
+    "score": 0.5285714285714286,
+    "status": "new",
+    "keywords": [
+      "Vision-Language-Action",
+      "VLA"
+    ]
+  },
+  {
+    "title": "Dataless Weight Disentanglement in Task Arithmetic via Kronecker-Factored Approximate Curvature",
+    "url": "http://arxiv.org/abs/2602.17385v1",
+    "date": "2026-02-19",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Dynamic Modeling and MPC for Locomotion of Tendon-Driven Soft Quadruped",
+    "url": "http://arxiv.org/abs/2602.16371v1",
+    "date": "2026-02-18",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "BrainRVQ: A High-Fidelity EEG Foundation Model via Dual-Domain Residual Quantization and Hierarchical Autoregression",
+    "url": "http://arxiv.org/abs/2602.16951v1",
+    "date": "2026-02-18",
+    "score": 0.45714285714285713,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "World Model Failure Classification and Anomaly Detection for Autonomous Inspection",
+    "url": "http://arxiv.org/abs/2602.16182v1",
+    "date": "2026-02-18",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "SparTa: Sparse Graphical Task Models from a Handful of Demonstrations",
+    "url": "http://arxiv.org/abs/2602.16911v1",
+    "date": "2026-02-18",
+    "score": 0.4071428571428571,
+    "status": "new",
+    "keywords": [
+      "Manipulation",
+      "Robot Learning"
+    ]
+  },
+  {
+    "title": "VIGOR: Visual Goal-In-Context Inference for Unified Humanoid Fall Safety",
+    "url": "http://arxiv.org/abs/2602.16511v1",
+    "date": "2026-02-18",
+    "score": 0.5857142857142857,
+    "status": "new",
+    "keywords": [
+      "Humanoid",
+      "Imitation Learning",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Learning to unfold cloth: Scaling up world models to deformable object manipulation",
+    "url": "http://arxiv.org/abs/2602.16675v1",
+    "date": "2026-02-18",
+    "score": 0.5071428571428571,
+    "status": "new",
+    "keywords": [
+      "Manipulation",
+      "World Model",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Markerless 6D Pose Estimation and Position-Based Visual Servoing for Endoscopic Continuum Manipulators",
+    "url": "http://arxiv.org/abs/2602.16365v1",
+    "date": "2026-02-18",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Sim-to-Real"
     ]
   },
   {
@@ -163,105 +485,589 @@
     ]
   },
   {
-    "title": "FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment",
-    "url": "http://arxiv.org/abs/2602.17259v1",
-    "date": "2026-02-19",
+    "title": "StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation",
+    "url": "http://arxiv.org/abs/2602.16915v1",
+    "date": "2026-02-18",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation",
+    "url": "http://arxiv.org/abs/2602.16705v1",
+    "date": "2026-02-18",
     "score": 0.6071428571428572,
     "status": "new",
     "keywords": [
-      "Foundation Model",
+      "Humanoid",
+      "Manipulation",
+      "Imitation Learning"
+    ]
+  },
+  {
+    "title": "Parameter-free representations outperform single-cell foundation models on downstream benchmarks",
+    "url": "http://arxiv.org/abs/2602.16696v1",
+    "date": "2026-02-18",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Are Object-Centric Representations Better At Compositional Generalization?",
+    "url": "http://arxiv.org/abs/2602.16689v1",
+    "date": "2026-02-18",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Factored Latent Action World Models",
+    "url": "http://arxiv.org/abs/2602.16229v1",
+    "date": "2026-02-18",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "Position: Why a Dynamical Systems Perspective is Needed to Advance Time Series Modeling",
+    "url": "http://arxiv.org/abs/2602.16864v1",
+    "date": "2026-02-18",
+    "score": 0.35714285714285715,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "System Identification under Constraints and Disturbance: A Bayesian Estimation Approach",
+    "url": "http://arxiv.org/abs/2602.16358v1",
+    "date": "2026-02-18",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "OSCAR: An Ovipositor-Inspired Self-Propelling Capsule Robot for Colonoscopy",
+    "url": "http://arxiv.org/abs/2602.15309v1",
+    "date": "2026-02-17",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing",
+    "url": "http://arxiv.org/abs/2602.15549v1",
+    "date": "2026-02-17",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2602.15817v1",
+    "date": "2026-02-17",
+    "score": 0.4857142857142857,
+    "status": "new",
+    "keywords": [
+      "MuJoCo",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Grip as Needed, Glide on Demand: Ultrasonic Lubrication for Robotic Locomotion",
+    "url": "http://arxiv.org/abs/2602.15608v1",
+    "date": "2026-02-17",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "World-Model-Augmented Web Agents with Action Correction",
+    "url": "http://arxiv.org/abs/2602.15384v1",
+    "date": "2026-02-17",
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching",
+    "url": "http://arxiv.org/abs/2602.15827v1",
+    "date": "2026-02-17",
+    "score": 0.6857142857142857,
+    "status": "new",
+    "keywords": [
+      "Humanoid",
+      "Locomotion",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "World Models for Policy Refinement in StarCraft II",
+    "url": "http://arxiv.org/abs/2602.14857v1",
+    "date": "2026-02-16",
+    "score": 0.29285714285714287,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "AdaptManip: Learning Adaptive Whole-Body Object Lifting and Delivery with Online Recurrent State Estimation",
+    "url": "http://arxiv.org/abs/2602.14363v1",
+    "date": "2026-02-16",
+    "score": 0.5428571428571429,
+    "status": "new",
+    "keywords": [
+      "Humanoid",
+      "Manipulation",
+      "Locomotion",
+      "Imitation Learning",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Cold-Start Personalization via Training-Free Priors from Structured World Models",
+    "url": "http://arxiv.org/abs/2602.15012v1",
+    "date": "2026-02-16",
+    "score": 0.4142857142857143,
+    "status": "new",
+    "keywords": [
       "World Model",
-      "VLA"
+      "Reinforcement Learning"
     ]
   },
   {
-    "title": "Physics Informed Viscous Value Representations",
-    "url": "http://arxiv.org/abs/2602.23280v1",
-    "date": "2026-02-26",
-    "score": 0.5857142857142857,
+    "title": "Bridging Network Fragmentation: A Semantic-Augmented DRL Framework for UAV-aided VANETs",
+    "url": "http://arxiv.org/abs/2603.18871v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
     "status": "new",
     "keywords": [
-      "Reinforcement Learning",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Adaptive Regime-Aware Stock Price Prediction Using Autoencoder-Gated Dual Node Transformers with Reinforcement Learning Control",
+    "url": "http://arxiv.org/abs/2603.19136v1",
+    "date": "2026-03-19",
+    "score": 0.1007142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "LuMamba: Latent Unified Mamba for Electrode Topology-Invariant and Efficient EEG Modeling",
+    "url": "http://arxiv.org/abs/2603.19100v1",
+    "date": "2026-03-19",
+    "score": 0.1307142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "ARIADNE: A Perception-Reasoning Synergy Framework for Trustworthy Coronary Angiography Analysis",
+    "url": "http://arxiv.org/abs/2603.19169v1",
+    "date": "2026-03-19",
+    "score": 0.1007142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction",
+    "url": "http://arxiv.org/abs/2603.19231v1",
+    "date": "2026-03-19",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
       "Manipulation"
     ]
   },
   {
-    "title": "Safe-Night VLA: Seeing the Unseen via Thermal-Perceptive Vision-Language-Action Models for Safety-Critical Manipulation",
-    "url": "http://arxiv.org/abs/2603.05754v1",
-    "date": "2026-03-05",
-    "score": 0.5857142857142857,
+    "title": "VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation",
+    "url": "http://arxiv.org/abs/2603.18943v1",
+    "date": "2026-03-19",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Multimodal Model for Computational Pathology:Representation Learning and Image Compression",
+    "url": "http://arxiv.org/abs/2603.18660v1",
+    "date": "2026-03-19",
+    "score": 0.07071428571428572,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Learn for Variation: Variationally Guided AAV Trajectory Learning in Differentiable Environments",
+    "url": "http://arxiv.org/abs/2603.18853v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "STEP: Scientific Time-Series Encoder Pretraining via Cross-Domain Distillation",
+    "url": "http://arxiv.org/abs/2603.18688v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Geography According to ChatGPT -- How Generative AI Represents and Reasons about Geography",
+    "url": "http://arxiv.org/abs/2603.18881v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "An Onto-Relational-Sophic Framework for Governing Synthetic Minds",
+    "url": "http://arxiv.org/abs/2603.18633v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction from RGB Videos using Gaussian Splatting",
+    "url": "http://arxiv.org/abs/2603.18912v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Embodied AI"
+    ]
+  },
+  {
+    "title": "Memento-Skills: Let Agents Design Agents",
+    "url": "http://arxiv.org/abs/2603.18743v1",
+    "date": "2026-03-19",
+    "score": 0.43571428571428567,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Robotic Agentic Platform for Intelligent Electric Vehicle Disassembly",
+    "url": "http://arxiv.org/abs/2603.18520v1",
+    "date": "2026-03-19",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents",
+    "url": "http://arxiv.org/abs/2603.18815v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "SR-Nav: Spatial Relationships Matter for Zero-shot Object Goal Navigation",
+    "url": "http://arxiv.org/abs/2603.18443v1",
+    "date": "2026-03-19",
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Automatic Configuration of LLM Post-Training Pipelines",
+    "url": "http://arxiv.org/abs/2603.18773v1",
+    "date": "2026-03-19",
+    "score": 0.1007142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "ADMM-Based Distributed MPC with Control Barrier Functions for Safe Multi-Robot Quadrupedal Locomotion",
+    "url": "http://arxiv.org/abs/2603.19170v1",
+    "date": "2026-03-19",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "Safety-Guaranteed Imitation Learning from Nonlinear Model Predictive Control for Spacecraft Close Proximity Operations",
+    "url": "http://arxiv.org/abs/2603.18910v1",
+    "date": "2026-03-19",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Imitation Learning"
+    ]
+  },
+  {
+    "title": "CRAFT: Aligning Diffusion Models with Fine-Tuning Is Easier Than You Think",
+    "url": "http://arxiv.org/abs/2603.18991v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Tendon-Actuated Robots with a Tapered, Flexible Polymer Backbone: Design, Fabrication, and Modeling",
+    "url": "http://arxiv.org/abs/2603.19124v1",
+    "date": "2026-03-19",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "ATG-MoE: Autoregressive trajectory generation with mixture-of-experts for assembly skill learning",
+    "url": "http://arxiv.org/abs/2603.19029v1",
+    "date": "2026-03-19",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Introducing M: A Modular, Modifiable Social Robot",
+    "url": "http://arxiv.org/abs/2603.19134v1",
+    "date": "2026-03-19",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Sim-to-Real"
+    ]
+  },
+  {
+    "title": "OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation",
+    "url": "http://arxiv.org/abs/2603.19201v1",
+    "date": "2026-03-19",
+    "score": 0.4857142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "VEPO: Variable Entropy Policy Optimization for Low-Resource Language Foundation Models",
+    "url": "http://arxiv.org/abs/2603.19152v1",
+    "date": "2026-03-19",
+    "score": 0.43571428571428567,
     "status": "new",
     "keywords": [
       "Foundation Model",
-      "Manipulation",
-      "Vision-Language-Action",
-      "VLA"
+      "Reinforcement Learning"
     ]
   },
   {
-    "title": "HandelBot: Real-World Piano Playing via Fast Adaptation of Dexterous Robot Policies",
-    "url": "http://arxiv.org/abs/2603.12243v1",
-    "date": "2026-03-12",
-    "score": 0.5857142857142857,
+    "title": "Box Maze: A Process-Control Architecture for Reliable LLM Reasoning",
+    "url": "http://arxiv.org/abs/2603.19182v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
     "status": "new",
     "keywords": [
-      "Reinforcement Learning",
-      "Bimanual",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Robustness, Cost, and Attack-Surface Concentration in Phishing Detection",
+    "url": "http://arxiv.org/abs/2603.19204v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
       "Manipulation"
     ]
   },
   {
-    "title": "AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models",
-    "url": "http://arxiv.org/abs/2603.05868v1",
-    "date": "2026-03-06",
-    "score": 0.5857142857142857,
+    "title": "FASTER: Rethinking Real-Time Flow VLAs",
+    "url": "http://arxiv.org/abs/2603.19199v1",
+    "date": "2026-03-19",
+    "score": 0.4857142857142857,
     "status": "new",
     "keywords": [
-      "Manipulation",
-      "Robot Manipulation",
       "Vision-Language-Action",
       "VLA"
     ]
   },
   {
-    "title": "Restoring Linguistic Grounding in VLA Models via Train-Free Attention Recalibration",
-    "url": "http://arxiv.org/abs/2603.06001v1",
-    "date": "2026-03-06",
-    "score": 0.5857142857142857,
+    "title": "OS-Themis: A Scalable Critic Framework for Generalist GUI Rewards",
+    "url": "http://arxiv.org/abs/2603.19191v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
     "status": "new",
     "keywords": [
-      "Manipulation",
-      "Vision-Language-Action",
-      "VLA"
+      "Reinforcement Learning"
     ]
   },
   {
-    "title": "SPARR: Simulation-based Policies with Asymmetric Real-world Residuals for Assembly",
-    "url": "http://arxiv.org/abs/2602.23253v1",
-    "date": "2026-02-26",
-    "score": 0.5857142857142857,
+    "title": "PRIOR: Perceptive Learning for Humanoid Locomotion with Reference Gait Priors",
+    "url": "http://arxiv.org/abs/2603.18979v1",
+    "date": "2026-03-19",
+    "score": 0.4857142857142857,
     "status": "new",
     "keywords": [
-      "Sim-to-Real",
-      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid"
+    ]
+  },
+  {
+    "title": "Cyber-Resilient Digital Twins: Discriminating Attacks for Safe Critical Infrastructure Control",
+    "url": "http://arxiv.org/abs/2603.18613v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
       "Manipulation"
     ]
   },
   {
-    "title": "Unified Learning of Temporal Task Structure and Action Timing for Bimanual Robot Manipulation",
-    "url": "http://arxiv.org/abs/2603.06538v1",
-    "date": "2026-03-06",
-    "score": 0.5857142857142857,
+    "title": "AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models",
+    "url": "http://arxiv.org/abs/2603.18464v1",
+    "date": "2026-03-19",
+    "score": 0.5142857142857143,
     "status": "new",
     "keywords": [
-      "Bimanual",
-      "Manipulation",
-      "Robot Manipulation"
+      "World Model",
+      "Reinforcement Learning",
+      "Vision-Language-Action",
+      "VLA"
+    ]
+  },
+  {
+    "title": "Maximum-Entropy Exploration with Future State-Action Visitation Measures",
+    "url": "http://arxiv.org/abs/2603.18965v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Graph-of-Constraints Model Predictive Control for Reactive Multi-agent Task and Motion Planning",
+    "url": "http://arxiv.org/abs/2603.18400v1",
+    "date": "2026-03-19",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "From Inference Efficiency to Embodied Efficiency: Revisiting Efficiency Metrics for Vision-Language-Action Models",
+    "url": "http://arxiv.org/abs/2603.19131v1",
+    "date": "2026-03-19",
+    "score": 0.4857142857142857,
+    "status": "new",
+    "keywords": [
+      "Vision-Language-Action",
+      "VLA"
+    ]
+  },
+  {
+    "title": "Balanced Thinking: Improving Chain of Thought Training in Vision Language Models",
+    "url": "http://arxiv.org/abs/2603.18656v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "RewardFlow: Topology-Aware Reward Propagation on State Graphs for Agentic RL with Large Language Models",
+    "url": "http://arxiv.org/abs/2603.18859v1",
+    "date": "2026-03-19",
+    "score": 0.43571428571428567,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Empathetic Motion Generation for Humanoid Educational Robots via Reasoning-Guided Vision--Language--Motion Diffusion Architecture",
+    "url": "http://arxiv.org/abs/2603.18771v1",
+    "date": "2026-03-19",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Humanoid"
+    ]
+  },
+  {
+    "title": "Thinking with Constructions: A Benchmark and Policy Optimization for Visual-Text Interleaved Geometric Reasoning",
+    "url": "http://arxiv.org/abs/2603.18662v1",
+    "date": "2026-03-19",
+    "score": 0.43571428571428567,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Manipulation"
     ]
   },
   {
     "title": "ViTac-Tracing: Visual-Tactile Imitation Learning of Deformable Object Tracing",
     "url": "http://arxiv.org/abs/2603.18784v1",
+    "date": "2026-03-19",
+    "score": 0.5857142857142857,
+    "status": "new",
+    "keywords": [
+      "Sim-to-Real",
+      "Imitation Learning",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "V-Dreamer: Automating Robotic Simulation and Trajectory Synthesis via Video Generation Priors",
+    "url": "http://arxiv.org/abs/2603.18811v1",
     "date": "2026-03-19",
     "score": 0.5857142857142857,
     "status": "new",
@@ -286,39 +1092,35 @@
     ]
   },
   {
-    "title": "Task-Level Decisions to Gait Level Control: A Hierarchical Policy Approach for Quadruped Navigation",
-    "url": "http://arxiv.org/abs/2603.05783v1",
-    "date": "2026-03-06",
-    "score": 0.5857142857142857,
+    "title": "DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding",
+    "url": "http://arxiv.org/abs/2603.19219v1",
+    "date": "2026-03-19",
+    "score": 0.5357142857142857,
     "status": "new",
     "keywords": [
-      "Sim-to-Real",
-      "Reinforcement Learning",
-      "Locomotion"
+      "Foundation Model",
+      "World Model",
+      "Vision-Language-Action"
     ]
   },
   {
-    "title": "VIGOR: Visual Goal-In-Context Inference for Unified Humanoid Fall Safety",
-    "url": "http://arxiv.org/abs/2602.16511v1",
-    "date": "2026-02-18",
-    "score": 0.5857142857142857,
+    "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
+    "url": "http://arxiv.org/abs/2603.19235v1",
+    "date": "2026-03-19",
+    "score": 0.4857142857142857,
     "status": "new",
     "keywords": [
-      "Humanoid",
-      "Imitation Learning",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "SuperSuit: An Isomorphic Bimodal Interface for Scalable Mobile Manipulation",
-    "url": "http://arxiv.org/abs/2603.06280v1",
-    "date": "2026-03-06",
-    "score": 0.5857142857142857,
-    "status": "new",
-    "keywords": [
-      "Embodied AI",
-      "Locomotion",
       "Manipulation"
+    ]
+  },
+  {
+    "title": "Towards Interpretable Foundation Models for Retinal Fundus Images",
+    "url": "http://arxiv.org/abs/2603.18846v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
     ]
   },
   {
@@ -335,49 +1137,51 @@
     ]
   },
   {
-    "title": "RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset",
-    "url": "http://arxiv.org/abs/2603.11811v1",
-    "date": "2026-03-12",
-    "score": 0.5857142857142857,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning",
-      "Manipulation",
-      "Robot Learning"
-    ]
-  },
-  {
-    "title": "Hierarchical Latent Action Model",
-    "url": "http://arxiv.org/abs/2603.05815v1",
-    "date": "2026-03-06",
-    "score": 0.5857142857142857,
-    "status": "new",
-    "keywords": [
-      "World Model"
-    ]
-  },
-  {
-    "title": "GraspLDP: Towards Generalizable Grasping Policy via Latent Diffusion",
-    "url": "http://arxiv.org/abs/2602.22862v1",
-    "date": "2026-02-26",
-    "score": 0.5857142857142857,
-    "status": "new",
-    "keywords": [
-      "Diffusion Policy",
-      "Imitation Learning",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "V-Dreamer: Automating Robotic Simulation and Trajectory Synthesis via Video Generation Priors",
-    "url": "http://arxiv.org/abs/2603.18811v1",
+    "title": "Cross-Domain Demo-to-Code via Neurosymbolic Counterfactual Reasoning",
+    "url": "http://arxiv.org/abs/2603.18495v1",
     "date": "2026-03-19",
-    "score": 0.5857142857142857,
+    "score": 0.3142857142857143,
     "status": "new",
     "keywords": [
-      "Sim-to-Real",
-      "Imitation Learning",
       "Manipulation"
+    ]
+  },
+  {
+    "title": "Learning to Self-Evolve",
+    "url": "http://arxiv.org/abs/2603.18620v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Context Bootstrapped Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2603.18953v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "CSSDF-Net: Safe Motion Planning Based on Neural Implicit Representations of Configuration Space Distance Field",
+    "url": "http://arxiv.org/abs/2603.18669v1",
+    "date": "2026-03-19",
+    "score": 0.2857142857142857,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "CausalRM: Causal-Theoretic Reward Modeling for RLHF from Observational User Feedbacks",
+    "url": "http://arxiv.org/abs/2603.18736v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
     ]
   },
   {
@@ -393,159 +1197,45 @@
     ]
   },
   {
-    "title": "$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
-    "url": "http://arxiv.org/abs/2603.12263v1",
-    "date": "2026-03-12",
-    "score": 0.5857142857142857,
+    "title": "MedForge: Interpretable Medical Deepfake Detection via Forgery-aware Reasoning",
+    "url": "http://arxiv.org/abs/2603.18577v1",
+    "date": "2026-03-19",
+    "score": 0.2142857142857143,
     "status": "new",
-    "keywords": [
-      "Foundation Model",
-      "Humanoid",
-      "Manipulation"
-    ]
+    "keywords": []
   },
   {
-    "title": "ManiDreams: An Open-Source Library for Robust Object Manipulation via Uncertainty-aware Task-specific Intuitive Physics",
-    "url": "http://arxiv.org/abs/2603.18336v1",
-    "date": "2026-03-18",
-    "score": 0.5642857142857144,
+    "title": "MultihopSpatial: Multi-hop Compositional Spatial Reasoning Benchmark for Vision-Language Model",
+    "url": "http://arxiv.org/abs/2603.18892v1",
+    "date": "2026-03-19",
+    "score": 0.5357142857142857,
     "status": "new",
     "keywords": [
-      "World Model",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "R2-Dreamer: Redundancy-Reduced World Models without Decoders or Augmentation",
-    "url": "http://arxiv.org/abs/2603.18202v1",
-    "date": "2026-03-18",
-    "score": 0.5642857142857144,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "RC-NF: Robot-Conditioned Normalizing Flow for Real-Time Anomaly Detection in Robotic Manipulation",
-    "url": "http://arxiv.org/abs/2603.11106v1",
-    "date": "2026-03-11",
-    "score": 0.5642857142857143,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning",
-      "Manipulation",
-      "Vision-Language-Action",
-      "VLA"
-    ]
-  },
-  {
-    "title": "AdaClearGrasp: Learning Adaptive Clearing for Zero-Shot Robust Dexterous Grasping in Densely Cluttered Environments",
-    "url": "http://arxiv.org/abs/2603.10616v1",
-    "date": "2026-03-11",
-    "score": 0.5642857142857143,
-    "status": "new",
-    "keywords": [
-      "Sim-to-Real",
+      "Spatial Intelligence",
       "Reinforcement Learning",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Task Parameter Extrapolation via Learning Inverse Tasks from Forward Demonstrations",
-    "url": "http://arxiv.org/abs/2603.05576v1",
-    "date": "2026-03-05",
-    "score": 0.5642857142857143,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning",
       "Manipulation",
-      "Robot Learning"
+      "Vision-Language-Action",
+      "VLA"
     ]
   },
   {
-    "title": "PRISM: Personalized Refinement of Imitation Skills for Manipulation via Human Instructions",
-    "url": "http://arxiv.org/abs/2603.05574v1",
-    "date": "2026-03-05",
-    "score": 0.5642857142857143,
+    "title": "MemoAct: Atkinson-Shiffrin-Inspired Memory-Augmented Visuomotor Policy for Robotic Manipulation",
+    "url": "http://arxiv.org/abs/2603.18494v1",
+    "date": "2026-03-19",
+    "score": 0.36428571428571427,
     "status": "new",
     "keywords": [
-      "Imitation Learning",
-      "Reinforcement Learning",
       "Manipulation"
     ]
   },
   {
-    "title": "Task-Relevant and Irrelevant Region-Aware Augmentation for Generalizable Vision-Based Imitation Learning in Agricultural Manipulation",
-    "url": "http://arxiv.org/abs/2603.04845v1",
-    "date": "2026-03-05",
-    "score": 0.5642857142857143,
+    "title": "HISR: Hindsight Information Modulated Segmental Process Rewards For Multi-turn Agentic Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2603.18683v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
     "status": "new",
     "keywords": [
-      "Diffusion Policy",
-      "Imitation Learning",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "PPGuide: Steering Diffusion Policies with Performance Predictive Guidance",
-    "url": "http://arxiv.org/abs/2603.10980v1",
-    "date": "2026-03-11",
-    "score": 0.5642857142857143,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Diffusion Policy",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Diffusion Policy through Conditional Proximal Policy Optimization",
-    "url": "http://arxiv.org/abs/2603.04790v1",
-    "date": "2026-03-05",
-    "score": 0.5642857142857143,
-    "status": "new",
-    "keywords": [
-      "MuJoCo",
-      "Diffusion Policy",
       "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "FG-CLTP: Fine-Grained Contrastive Language Tactile Pretraining for Robotic Manipulation",
-    "url": "http://arxiv.org/abs/2603.10871v1",
-    "date": "2026-03-11",
-    "score": 0.5642857142857143,
-    "status": "new",
-    "keywords": [
-      "Sim-to-Real",
-      "Manipulation",
-      "Vision-Language-Action",
-      "VLA"
-    ]
-  },
-  {
-    "title": "cuRoboV2: Dynamics-Aware Motion Generation with Depth-Fused Distance Fields for High-DoF Robots",
-    "url": "http://arxiv.org/abs/2603.05493v1",
-    "date": "2026-03-05",
-    "score": 0.5642857142857143,
-    "status": "new",
-    "keywords": [
-      "Locomotion",
-      "Humanoid",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Generative Control as Optimization: Time Unconditional Flow Matching for Adaptive and Robust Robotic Control",
-    "url": "http://arxiv.org/abs/2603.17834v1",
-    "date": "2026-03-18",
-    "score": 0.5642857142857143,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning",
-      "Vision-Language-Action",
-      "VLA"
     ]
   },
   {
@@ -562,6 +1252,16 @@
     ]
   },
   {
+    "title": "Mi:dm K 2.5 Pro",
+    "url": "http://arxiv.org/abs/2603.18788v1",
+    "date": "2026-03-19",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
     "title": "RoboForge: Physically Optimized Text-guided Whole-Body Locomotion for Humanoids",
     "url": "http://arxiv.org/abs/2603.17927v2",
     "date": "2026-03-18",
@@ -574,50 +1274,265 @@
     ]
   },
   {
-    "title": "RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks",
-    "url": "http://arxiv.org/abs/2603.11558v1",
-    "date": "2026-03-12",
+    "title": "Unified Policy Value Decomposition for Rapid Adaptation",
+    "url": "http://arxiv.org/abs/2603.17947v1",
+    "date": "2026-03-18",
+    "score": 0.5142857142857143,
+    "status": "new",
+    "keywords": [
+      "MuJoCo",
+      "Reinforcement Learning",
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "R2-Dreamer: Redundancy-Reduced World Models without Decoders or Augmentation",
+    "url": "http://arxiv.org/abs/2603.18202v1",
+    "date": "2026-03-18",
+    "score": 0.5642857142857144,
+    "status": "new",
+    "keywords": [
+      "World Model",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Generative Control as Optimization: Time Unconditional Flow Matching for Adaptive and Robust Robotic Control",
+    "url": "http://arxiv.org/abs/2603.17834v1",
+    "date": "2026-03-18",
     "score": 0.5642857142857143,
     "status": "new",
     "keywords": [
-      "Manipulation",
+      "Imitation Learning",
       "Vision-Language-Action",
       "VLA"
     ]
   },
   {
-    "title": "ScanDP: Generalizable 3D Scanning with Diffusion Policy",
-    "url": "http://arxiv.org/abs/2603.10390v1",
-    "date": "2026-03-11",
-    "score": 0.5428571428571429,
+    "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection",
+    "url": "http://arxiv.org/abs/2603.18343v1",
+    "date": "2026-03-18",
+    "score": 0.2142857142857143,
     "status": "new",
     "keywords": [
-      "Diffusion Policy",
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Enactor: From Traffic Simulators to Surrogate World Models",
+    "url": "http://arxiv.org/abs/2603.18266v1",
+    "date": "2026-03-18",
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "DexEXO: A Wearability-First Dexterous Exoskeleton for Operator-Agnostic Demonstration and Learning",
+    "url": "http://arxiv.org/abs/2603.17323v1",
+    "date": "2026-03-18",
+    "score": 0.3428571428571428,
+    "status": "new",
+    "keywords": [
+      "Robot Learning"
+    ]
+  },
+  {
+    "title": "EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards",
+    "url": "http://arxiv.org/abs/2603.17808v1",
+    "date": "2026-03-18",
+    "score": 0.46428571428571425,
+    "status": "new",
+    "keywords": [
+      "World Model",
+      "Bimanual"
+    ]
+  },
+  {
+    "title": "Approximate Subgraph Matching with Neural Graph Representations and Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2603.18314v1",
+    "date": "2026-03-18",
+    "score": 0.5142857142857143,
+    "status": "new",
+    "keywords": [
       "Imitation Learning",
       "Reinforcement Learning"
     ]
   },
   {
-    "title": "AdaptManip: Learning Adaptive Whole-Body Object Lifting and Delivery with Online Recurrent State Estimation",
-    "url": "http://arxiv.org/abs/2602.14363v1",
-    "date": "2026-02-16",
-    "score": 0.5428571428571429,
+    "title": "Flow Matching Policy with Entropy Regularization",
+    "url": "http://arxiv.org/abs/2603.17685v2",
+    "date": "2026-03-18",
+    "score": 0.4142857142857143,
     "status": "new",
     "keywords": [
-      "Humanoid",
-      "Manipulation",
-      "Locomotion",
-      "Imitation Learning",
+      "MuJoCo",
       "Reinforcement Learning"
     ]
   },
   {
-    "title": "Risk-Aware Reinforcement Learning for Mobile Manipulation",
-    "url": "http://arxiv.org/abs/2603.04579v1",
-    "date": "2026-03-04",
-    "score": 0.5428571428571429,
+    "title": "Understanding Task Aggregation for Generalizable Ultrasound Foundation Models",
+    "url": "http://arxiv.org/abs/2603.18123v1",
+    "date": "2026-03-18",
+    "score": 0.09428571428571428,
     "status": "new",
     "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Offload or Overload: A Platform Measurement Study of Mobile Robotic Manipulation Workloads",
+    "url": "http://arxiv.org/abs/2603.18284v1",
+    "date": "2026-03-18",
+    "score": 0.46428571428571425,
+    "status": "new",
+    "keywords": [
+      "Foundation Model",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Differential Attention-Augmented BiomedCLIP with Asymmetric Focal Optimization for Imbalanced Multi-Label Video Capsule Endoscopy Classification",
+    "url": "http://arxiv.org/abs/2603.17879v1",
+    "date": "2026-03-18",
+    "score": 0.09428571428571428,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Video Understanding: From Geometry and Semantics to Unified Models",
+    "url": "http://arxiv.org/abs/2603.17840v1",
+    "date": "2026-03-18",
+    "score": 0.2142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "M2P: Improving Visual Foundation Models with Mask-to-Point Weakly-Supervised Learning for Dense Point Tracking",
+    "url": "http://arxiv.org/abs/2603.17813v1",
+    "date": "2026-03-18",
+    "score": 0.2142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "ManiDreams: An Open-Source Library for Robust Object Manipulation via Uncertainty-aware Task-specific Intuitive Physics",
+    "url": "http://arxiv.org/abs/2603.18336v1",
+    "date": "2026-03-18",
+    "score": 0.5642857142857144,
+    "status": "new",
+    "keywords": [
+      "World Model",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Stereo World Model: Camera-Guided Stereo Video Generation",
+    "url": "http://arxiv.org/abs/2603.17375v1",
+    "date": "2026-03-18",
+    "score": 0.19285714285714284,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "SegFly: A 2D-3D-2D Paradigm for Aerial RGB-Thermal Semantic Segmentation at Scale",
+    "url": "http://arxiv.org/abs/2603.17920v1",
+    "date": "2026-03-18",
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Loc3R-VLM: Language-based Localization and 3D Reasoning with Vision-Language Models",
+    "url": "http://arxiv.org/abs/2603.18002v1",
+    "date": "2026-03-18",
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "Revisiting foundation models for cell instance segmentation",
+    "url": "http://arxiv.org/abs/2603.17845v1",
+    "date": "2026-03-18",
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "VolumeDP: Modeling Volumetric Representation for Manipulation Policy Learning",
+    "url": "http://arxiv.org/abs/2603.17720v1",
+    "date": "2026-03-18",
+    "score": 0.46428571428571425,
+    "status": "new",
+    "keywords": [
+      "Imitation Learning",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "From Digital Twins to World Models:Opportunities, Challenges, and Applications for Mobile Edge General Intelligence",
+    "url": "http://arxiv.org/abs/2603.17420v1",
+    "date": "2026-03-18",
+    "score": 0.29285714285714287,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs",
+    "url": "http://arxiv.org/abs/2603.17652v1",
+    "date": "2026-03-18",
+    "score": 0.46428571428571425,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "Specification-Aware Distribution Shaping for Robotics Foundation Models",
+    "url": "http://arxiv.org/abs/2603.17969v1",
+    "date": "2026-03-18",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "DriveVLM-RL: Neuroscience-Inspired Reinforcement Learning with Vision-Language Models for Safe and Deployable Autonomous Driving",
+    "url": "http://arxiv.org/abs/2603.18315v1",
+    "date": "2026-03-18",
+    "score": 0.46428571428571425,
+    "status": "new",
+    "keywords": [
+      "Foundation Model",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Efficient and Reliable Teleoperation through Real-to-Sim-to-Real Shared Autonomy",
+    "url": "http://arxiv.org/abs/2603.17016v1",
+    "date": "2026-03-17",
+    "score": 0.7428571428571429,
+    "status": "new",
+    "keywords": [
+      "Sim-to-Real",
       "Imitation Learning",
       "Reinforcement Learning",
       "Manipulation"
@@ -636,318 +1551,74 @@
     ]
   },
   {
-    "title": "Cross-Domain Policy Optimization via Bellman Consistency and Hybrid Critics",
-    "url": "http://arxiv.org/abs/2603.12087v1",
-    "date": "2026-03-12",
-    "score": 0.5357142857142857,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning",
-      "Locomotion",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Temporal Straightening for Latent Planning",
-    "url": "http://arxiv.org/abs/2603.12231v1",
-    "date": "2026-03-12",
-    "score": 0.5357142857142857,
+    "title": "MosaicMem: Hybrid Spatial Memory for Controllable Video World Models",
+    "url": "http://arxiv.org/abs/2603.17117v1",
+    "date": "2026-03-17",
+    "score": 0.39285714285714285,
     "status": "new",
     "keywords": [
       "World Model"
     ]
   },
   {
-    "title": "DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding",
-    "url": "http://arxiv.org/abs/2603.19219v1",
-    "date": "2026-03-19",
-    "score": 0.5357142857142857,
+    "title": "WorldCam: Interactive Autoregressive 3D Gaming Worlds with Camera Pose as a Unifying Geometric Representation",
+    "url": "http://arxiv.org/abs/2603.16871v1",
+    "date": "2026-03-17",
+    "score": 0.19285714285714284,
     "status": "new",
     "keywords": [
-      "Foundation Model",
-      "World Model",
-      "Vision-Language-Action"
+      "World Model"
     ]
   },
   {
-    "title": "MultihopSpatial: Multi-hop Compositional Spatial Reasoning Benchmark for Vision-Language Model",
-    "url": "http://arxiv.org/abs/2603.18892v1",
-    "date": "2026-03-19",
-    "score": 0.5357142857142857,
+    "title": "Sunday's Series B: No More Demos",
+    "url": "https://www.sunday.ai/journal",
+    "date": "2026-03-15",
+    "score": 0.3,
     "status": "new",
-    "keywords": [
-      "Spatial Intelligence",
-      "Reinforcement Learning",
-      "Manipulation",
-      "Vision-Language-Action",
-      "VLA"
-    ]
+    "keywords": []
   },
   {
-    "title": "When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs",
-    "url": "http://arxiv.org/abs/2602.17659v1",
-    "date": "2026-02-19",
-    "score": 0.5285714285714286,
-    "status": "new",
-    "keywords": [
-      "Vision-Language-Action",
-      "VLA"
-    ]
-  },
-  {
-    "title": "Unified Policy Value Decomposition for Rapid Adaptation",
-    "url": "http://arxiv.org/abs/2603.17947v1",
-    "date": "2026-03-18",
-    "score": 0.5142857142857143,
-    "status": "new",
-    "keywords": [
-      "MuJoCo",
-      "Reinforcement Learning",
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models",
-    "url": "http://arxiv.org/abs/2603.18464v1",
-    "date": "2026-03-19",
-    "score": 0.5142857142857143,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Reinforcement Learning",
-      "Vision-Language-Action",
-      "VLA"
-    ]
-  },
-  {
-    "title": "Approximate Subgraph Matching with Neural Graph Representations and Reinforcement Learning",
-    "url": "http://arxiv.org/abs/2603.18314v1",
-    "date": "2026-03-18",
-    "score": 0.5142857142857143,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Learning to unfold cloth: Scaling up world models to deformable object manipulation",
-    "url": "http://arxiv.org/abs/2602.16675v1",
-    "date": "2026-02-18",
-    "score": 0.5071428571428571,
-    "status": "new",
-    "keywords": [
-      "Manipulation",
-      "World Model",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Sim-to-reality adaptation for Deep Reinforcement Learning applied to an underwater docking application",
-    "url": "http://arxiv.org/abs/2603.12020v1",
+    "title": "WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-centric Image Editing",
+    "url": "http://arxiv.org/abs/2603.11593v1",
     "date": "2026-03-12",
-    "score": 0.4857142857142857,
+    "score": 0.3142857142857143,
     "status": "new",
     "keywords": [
-      "Sim-to-Real",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "From Inference Efficiency to Embodied Efficiency: Revisiting Efficiency Metrics for Vision-Language-Action Models",
-    "url": "http://arxiv.org/abs/2603.19131v1",
-    "date": "2026-03-19",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Vision-Language-Action",
-      "VLA"
-    ]
-  },
-  {
-    "title": "Dual-Agent Multiple-Model Reinforcement Learning for Event-Triggered Human-Robot Co-Adaptation in Decoupled Task Spaces",
-    "url": "http://arxiv.org/abs/2603.06163v1",
-    "date": "2026-03-06",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "MuJoCo",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "DreamToNav: Generalizable Navigation for Robots via Generative Video Planning",
-    "url": "http://arxiv.org/abs/2603.06190v1",
-    "date": "2026-03-06",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Foundation Model",
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "PRIOR: Perceptive Learning for Humanoid Locomotion with Reference Gait Priors",
-    "url": "http://arxiv.org/abs/2603.18979v1",
-    "date": "2026-03-19",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Locomotion",
-      "Humanoid"
-    ]
-  },
-  {
-    "title": "HarvestFlex: Strawberry Harvesting via Vision-Language-Action Policy Adaptation in the Wild",
-    "url": "http://arxiv.org/abs/2603.05982v1",
-    "date": "2026-03-06",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Vision-Language-Action",
-      "VLA"
-    ]
-  },
-  {
-    "title": "History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation",
-    "url": "http://arxiv.org/abs/2603.06480v1",
-    "date": "2026-03-06",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Vision-Language-Action",
-      "VLA"
-    ]
-  },
-  {
-    "title": "OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation",
-    "url": "http://arxiv.org/abs/2603.19201v1",
-    "date": "2026-03-19",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "World Model",
+      "Reinforcement Learning",
       "Manipulation"
     ]
   },
   {
-    "title": "How to Model Your Crazyflie Brushless",
-    "url": "http://arxiv.org/abs/2603.05944v1",
-    "date": "2026-03-06",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Sim-to-Real",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "TADPO: Reinforcement Learning Goes Off-road",
-    "url": "http://arxiv.org/abs/2603.05995v1",
-    "date": "2026-03-06",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Sim-to-Real",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "FASTER: Rethinking Real-Time Flow VLAs",
-    "url": "http://arxiv.org/abs/2603.19199v1",
-    "date": "2026-03-19",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Vision-Language-Action",
-      "VLA"
-    ]
-  },
-  {
-    "title": "SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics",
-    "url": "http://arxiv.org/abs/2603.12193v1",
+    "title": "Shape-of-You: Fused Gromov-Wasserstein Optimal Transport for Semantic Correspondence in-the-Wild",
+    "url": "http://arxiv.org/abs/2603.11618v1",
     "date": "2026-03-12",
-    "score": 0.4857142857142857,
+    "score": 0.3142857142857143,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks",
+    "url": "http://arxiv.org/abs/2603.11558v1",
+    "date": "2026-03-12",
+    "score": 0.5642857142857143,
     "status": "new",
     "keywords": [
       "Manipulation",
-      "Vision-Language-Action"
+      "Vision-Language-Action",
+      "VLA"
     ]
   },
   {
-    "title": "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning",
-    "url": "http://arxiv.org/abs/2602.15817v1",
-    "date": "2026-02-17",
-    "score": 0.4857142857142857,
+    "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation",
+    "url": "http://arxiv.org/abs/2603.11534v1",
+    "date": "2026-03-12",
+    "score": 0.2142857142857143,
     "status": "new",
     "keywords": [
-      "MuJoCo",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
-    "url": "http://arxiv.org/abs/2603.19235v1",
-    "date": "2026-03-19",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "EmboAlign: Aligning Video Generation with Compositional Constraints for Zero-Shot Manipulation",
-    "url": "http://arxiv.org/abs/2603.05757v1",
-    "date": "2026-03-05",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation",
-      "Robot Manipulation"
-    ]
-  },
-  {
-    "title": "Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality",
-    "url": "http://arxiv.org/abs/2603.05993v1",
-    "date": "2026-03-06",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Locomotion",
-      "Humanoid"
-    ]
-  },
-  {
-    "title": "OpenHEART: Opening Heterogeneous Articulated Objects with a Legged Manipulator",
-    "url": "http://arxiv.org/abs/2603.05830v1",
-    "date": "2026-03-06",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Swooper: Learning High-Speed Aerial Grasping With a Simple Gripper",
-    "url": "http://arxiv.org/abs/2603.05935v1",
-    "date": "2026-03-06",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
-    "url": "http://arxiv.org/abs/2602.23259v1",
-    "date": "2026-02-26",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Imitation Learning"
+      "World Model"
     ]
   },
   {
@@ -962,6 +1633,40 @@
     ]
   },
   {
+    "title": "Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2603.11653v1",
+    "date": "2026-03-12",
+    "score": 0.6857142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Vision-Language-Action",
+      "VLA"
+    ]
+  },
+  {
+    "title": "Temporal Straightening for Latent Planning",
+    "url": "http://arxiv.org/abs/2603.12231v1",
+    "date": "2026-03-12",
+    "score": 0.5357142857142857,
+    "status": "new",
+    "keywords": [
+      "World Model"
+    ]
+  },
+  {
+    "title": "RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset",
+    "url": "http://arxiv.org/abs/2603.11811v1",
+    "date": "2026-03-12",
+    "score": 0.5857142857142857,
+    "status": "new",
+    "keywords": [
+      "Imitation Learning",
+      "Manipulation",
+      "Robot Learning"
+    ]
+  },
+  {
     "title": "O3N: Omnidirectional Open-Vocabulary Occupancy Prediction",
     "url": "http://arxiv.org/abs/2603.12144v1",
     "date": "2026-03-12",
@@ -972,75 +1677,46 @@
     ]
   },
   {
-    "title": "GeoWorld: Geometric World Models",
-    "url": "http://arxiv.org/abs/2602.23058v1",
-    "date": "2026-02-26",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Simple Models, Real Swimming: Digital Twins for Tendon-Driven Underwater Robots",
-    "url": "http://arxiv.org/abs/2602.23283v1",
-    "date": "2026-02-26",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "MuJoCo",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Concurrent Prehensile and Nonprehensile Manipulation: A Practical Approach to Multi-Stage Dexterous Tasks",
-    "url": "http://arxiv.org/abs/2603.11655v1",
+    "title": "HandelBot: Real-World Piano Playing via Fast Adaptation of Dexterous Robot Policies",
+    "url": "http://arxiv.org/abs/2603.12243v1",
     "date": "2026-03-12",
-    "score": 0.4857142857142857,
-    "status": "new",
-    "keywords": [
-      "Diffusion Policy",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "A Perspective on Open Challenges in Deformable Object Manipulation",
-    "url": "http://arxiv.org/abs/2602.22998v1",
-    "date": "2026-02-26",
-    "score": 0.4857142857142857,
+    "score": 0.5857142857142857,
     "status": "new",
     "keywords": [
       "Reinforcement Learning",
+      "Bimanual",
       "Manipulation"
     ]
   },
   {
-    "title": "Diversity You Can Actually Measure: A Fast, Model-Free Diversity Metric for Robotics Datasets",
-    "url": "http://arxiv.org/abs/2603.11634v1",
+    "title": "$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
+    "url": "http://arxiv.org/abs/2603.12263v1",
     "date": "2026-03-12",
-    "score": 0.46428571428571425,
+    "score": 0.5857142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model",
+      "Humanoid",
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "HumDex:Humanoid Dexterous Manipulation Made Easy",
+    "url": "http://arxiv.org/abs/2603.12260v1",
+    "date": "2026-03-12",
+    "score": 0.6857142857142857,
     "status": "new",
     "keywords": [
       "Imitation Learning",
+      "Humanoid",
       "Manipulation"
     ]
   },
   {
-    "title": "Lifelong Imitation Learning with Multimodal Latent Replay and Incremental Adjustment",
-    "url": "http://arxiv.org/abs/2603.10929v2",
-    "date": "2026-03-11",
-    "score": 0.46428571428571425,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning"
-    ]
-  },
-  {
-    "title": "ASTER: Attitude-aware Suspended-payload Quadrotor Traversal via Efficient Reinforcement Learning",
-    "url": "http://arxiv.org/abs/2603.10715v1",
-    "date": "2026-03-11",
-    "score": 0.46428571428571425,
+    "title": "Sim-to-reality adaptation for Deep Reinforcement Learning applied to an underwater docking application",
+    "url": "http://arxiv.org/abs/2603.12020v1",
+    "date": "2026-03-12",
+    "score": 0.4857142857142857,
     "status": "new",
     "keywords": [
       "Sim-to-Real",
@@ -1048,963 +1724,21 @@
     ]
   },
   {
-    "title": "MAVEN: A Meta-Reinforcement Learning Framework for Varying-Dynamics Expertise in Agile Quadrotor Maneuvers",
-    "url": "http://arxiv.org/abs/2603.10714v1",
-    "date": "2026-03-11",
-    "score": 0.46428571428571425,
-    "status": "new",
-    "keywords": [
-      "Sim-to-Real",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "ResWM: Residual-Action World Model for Visual RL",
-    "url": "http://arxiv.org/abs/2603.11110v1",
-    "date": "2026-03-11",
-    "score": 0.46428571428571425,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Offload or Overload: A Platform Measurement Study of Mobile Robotic Manipulation Workloads",
-    "url": "http://arxiv.org/abs/2603.18284v1",
-    "date": "2026-03-18",
-    "score": 0.46428571428571425,
-    "status": "new",
-    "keywords": [
-      "Foundation Model",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "DriveVLM-RL: Neuroscience-Inspired Reinforcement Learning with Vision-Language Models for Safe and Deployable Autonomous Driving",
-    "url": "http://arxiv.org/abs/2603.18315v1",
-    "date": "2026-03-18",
-    "score": 0.46428571428571425,
-    "status": "new",
-    "keywords": [
-      "Foundation Model",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "VolumeDP: Modeling Volumetric Representation for Manipulation Policy Learning",
-    "url": "http://arxiv.org/abs/2603.17720v1",
-    "date": "2026-03-18",
-    "score": 0.46428571428571425,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards",
-    "url": "http://arxiv.org/abs/2603.17808v1",
-    "date": "2026-03-18",
-    "score": 0.46428571428571425,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Bimanual"
-    ]
-  },
-  {
-    "title": "VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs",
-    "url": "http://arxiv.org/abs/2603.17652v1",
-    "date": "2026-03-18",
-    "score": 0.46428571428571425,
-    "status": "new",
-    "keywords": [
-      "World Model"
-    ]
-  },
-  {
-    "title": "BrainRVQ: A High-Fidelity EEG Foundation Model via Dual-Domain Residual Quantization and Hierarchical Autoregression",
-    "url": "http://arxiv.org/abs/2602.16951v1",
-    "date": "2026-02-18",
-    "score": 0.45714285714285713,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Continual uncertainty learning",
-    "url": "http://arxiv.org/abs/2602.17174v1",
-    "date": "2026-02-19",
-    "score": 0.45714285714285713,
-    "status": "new",
-    "keywords": [
-      "Sim-to-Real",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "The Latent Color Subspace: Emergent Order in High-Dimensional Chaos",
-    "url": "http://arxiv.org/abs/2603.12261v1",
+    "title": "Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training",
+    "url": "http://arxiv.org/abs/2603.12246v1",
     "date": "2026-03-12",
-    "score": 0.43571428571428567,
+    "score": 0.2357142857142857,
     "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
+    "keywords": []
   },
   {
-    "title": "VEPO: Variable Entropy Policy Optimization for Low-Resource Language Foundation Models",
-    "url": "http://arxiv.org/abs/2603.19152v1",
-    "date": "2026-03-19",
-    "score": 0.43571428571428567,
-    "status": "new",
-    "keywords": [
-      "Foundation Model",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Taming the Adversary: Stable Minimax Deep Deterministic Policy Gradient via Fractional Objectives",
-    "url": "http://arxiv.org/abs/2603.12110v1",
+    "title": "LatentGeo: Learnable Auxiliary Constructions in Latent Space for Multimodal Geometric Reasoning",
+    "url": "http://arxiv.org/abs/2603.12166v1",
     "date": "2026-03-12",
-    "score": 0.43571428571428567,
-    "status": "new",
-    "keywords": [
-      "MuJoCo",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "RewardFlow: Topology-Aware Reward Propagation on State Graphs for Agentic RL with Large Language Models",
-    "url": "http://arxiv.org/abs/2603.18859v1",
-    "date": "2026-03-19",
-    "score": 0.43571428571428567,
+    "score": 0.2357142857142857,
     "status": "new",
     "keywords": [
       "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "SubspaceAD: Training-Free Few-Shot Anomaly Detection via Subspace Modeling",
-    "url": "http://arxiv.org/abs/2602.23013v1",
-    "date": "2026-02-26",
-    "score": 0.43571428571428567,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "MetaOthello: A Controlled Study of Multiple World Models in Transformers",
-    "url": "http://arxiv.org/abs/2602.23164v1",
-    "date": "2026-02-26",
-    "score": 0.43571428571428567,
-    "status": "new",
-    "keywords": [
-      "Foundation Model",
-      "World Model"
-    ]
-  },
-  {
-    "title": "EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents",
-    "url": "http://arxiv.org/abs/2602.23205v1",
-    "date": "2026-02-26",
-    "score": 0.43571428571428567,
-    "status": "new",
-    "keywords": [
-      "Sim-to-Real",
-      "Embodied AI",
-      "Humanoid"
-    ]
-  },
-  {
-    "title": "Thinking with Constructions: A Benchmark and Policy Optimization for Visual-Text Interleaved Geometric Reasoning",
-    "url": "http://arxiv.org/abs/2603.18662v1",
-    "date": "2026-03-19",
-    "score": 0.43571428571428567,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Memento-Skills: Let Agents Design Agents",
-    "url": "http://arxiv.org/abs/2603.18743v1",
-    "date": "2026-03-19",
-    "score": 0.43571428571428567,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Latent Wasserstein Adversarial Imitation Learning",
-    "url": "http://arxiv.org/abs/2603.05440v1",
-    "date": "2026-03-05",
-    "score": 0.4142857142857143,
-    "status": "new",
-    "keywords": [
-      "MuJoCo",
-      "Imitation Learning"
-    ]
-  },
-  {
-    "title": "ARROW: Augmented Replay for RObust World models",
-    "url": "http://arxiv.org/abs/2603.11395v1",
-    "date": "2026-03-12",
-    "score": 0.4142857142857143,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Cold-Start Personalization via Training-Free Priors from Structured World Models",
-    "url": "http://arxiv.org/abs/2602.15012v1",
-    "date": "2026-02-16",
-    "score": 0.4142857142857143,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Pointy - A Lightweight Transformer for Point Cloud Foundation Models",
-    "url": "http://arxiv.org/abs/2603.10963v1",
-    "date": "2026-03-11",
-    "score": 0.4142857142857143,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Flow Matching Policy with Entropy Regularization",
-    "url": "http://arxiv.org/abs/2603.17685v2",
-    "date": "2026-03-18",
-    "score": 0.4142857142857143,
-    "status": "new",
-    "keywords": [
-      "MuJoCo",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Proximal powered knee placement: a case study",
-    "url": "http://arxiv.org/abs/2602.17502v1",
-    "date": "2026-02-19",
-    "score": 0.4071428571428571,
-    "status": "new",
-    "keywords": [
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "SparTa: Sparse Graphical Task Models from a Handful of Demonstrations",
-    "url": "http://arxiv.org/abs/2602.16911v1",
-    "date": "2026-02-18",
-    "score": 0.4071428571428571,
-    "status": "new",
-    "keywords": [
-      "Manipulation",
-      "Robot Learning"
-    ]
-  },
-  {
-    "title": "A Cost-Effective and Climate-Resilient Air Pressure System for Rain Effect Reduction on Automated Vehicle Cameras",
-    "url": "http://arxiv.org/abs/2602.17472v1",
-    "date": "2026-02-19",
-    "score": 0.4071428571428571,
-    "status": "new",
-    "keywords": [
-      "Deep Learning"
-    ]
-  },
-  {
-    "title": "Nonlinear Predictive Control of the Continuum and Hybrid Dynamics of a Suspended Deformable Cable for Aerial Pick and Place",
-    "url": "http://arxiv.org/abs/2602.17199v1",
-    "date": "2026-02-19",
-    "score": 0.4071428571428571,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "IRIS: Learning-Driven Task-Specific Cinema Robot Arm for Visuomotor Motion Control",
-    "url": "http://arxiv.org/abs/2602.17537v1",
-    "date": "2026-02-19",
-    "score": 0.4071428571428571,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning"
-    ]
-  },
-  {
-    "title": "World2Act: Latent Action Post-Training via Skill-Compositional World Models",
-    "url": "http://arxiv.org/abs/2603.10422v1",
-    "date": "2026-03-11",
-    "score": 0.39285714285714285,
-    "status": "new",
-    "keywords": [
-      "World Model",
-      "Vision-Language-Action",
-      "VLA"
-    ]
-  },
-  {
-    "title": "MosaicMem: Hybrid Spatial Memory for Controllable Video World Models",
-    "url": "http://arxiv.org/abs/2603.17117v1",
-    "date": "2026-03-17",
-    "score": 0.39285714285714285,
-    "status": "new",
-    "keywords": [
-      "World Model"
-    ]
-  },
-  {
-    "title": "VG3S: Visual Geometry Grounded Gaussian Splatting for Semantic Occupancy Prediction",
-    "url": "http://arxiv.org/abs/2603.06210v1",
-    "date": "2026-03-06",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Fly360: Omnidirectional Obstacle Avoidance within Drone View",
-    "url": "http://arxiv.org/abs/2603.06573v1",
-    "date": "2026-03-06",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Spatial Intelligence"
-    ]
-  },
-  {
-    "title": "Dynamic Modeling and MPC for Locomotion of Tendon-Driven Soft Quadruped",
-    "url": "http://arxiv.org/abs/2602.16371v1",
-    "date": "2026-02-18",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "Underactuated multimodal jumping robot for extraterrestrial exploration",
-    "url": "http://arxiv.org/abs/2603.06525v1",
-    "date": "2026-03-06",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "Few-Shot Neural Differentiable Simulator: Real-to-Sim Rigid-Contact Modeling",
-    "url": "http://arxiv.org/abs/2603.06218v1",
-    "date": "2026-03-06",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Safe Consensus of Cooperative Manipulation with Hierarchical Event-Triggered Control Barrier Functions",
-    "url": "http://arxiv.org/abs/2603.06356v1",
-    "date": "2026-03-06",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Learning Visuomotor Policy for Multi-Robot Laser Tag Game",
-    "url": "http://arxiv.org/abs/2603.11980v1",
-    "date": "2026-03-12",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Energy Prediction on Sloping Ground for Quadruped Robots",
-    "url": "http://arxiv.org/abs/2603.11963v1",
-    "date": "2026-03-12",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "World Model Failure Classification and Anomaly Detection for Autonomous Inspection",
-    "url": "http://arxiv.org/abs/2602.16182v1",
-    "date": "2026-02-18",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "World Model"
-    ]
-  },
-  {
-    "title": "CRAFT: A Tendon-Driven Hand with Hybrid Hard-Soft Compliance",
-    "url": "http://arxiv.org/abs/2603.12120v1",
-    "date": "2026-03-12",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Markerless 6D Pose Estimation and Position-Based Visual Servoing for Endoscopic Continuum Manipulators",
-    "url": "http://arxiv.org/abs/2602.16365v1",
-    "date": "2026-02-18",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Sim-to-Real"
-    ]
-  },
-  {
-    "title": "Empathetic Motion Generation for Humanoid Educational Robots via Reasoning-Guided Vision--Language--Motion Diffusion Architecture",
-    "url": "http://arxiv.org/abs/2603.18771v1",
-    "date": "2026-03-19",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Humanoid"
-    ]
-  },
-  {
-    "title": "DexEMG: Towards Dexterous Teleoperation System via EMG2Pose Generalization",
-    "url": "http://arxiv.org/abs/2603.05861v1",
-    "date": "2026-03-06",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Towards Intelligible Human-Robot Interaction: An Active Inference Approach to Occluded Pedestrian Scenarios",
-    "url": "http://arxiv.org/abs/2602.23109v1",
-    "date": "2026-02-26",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "DigiArm: An Anthropomorphic 3D-Printed Prosthetic Hand with Enhanced Dexterity for Typing Tasks",
-    "url": "http://arxiv.org/abs/2602.23017v1",
-    "date": "2026-02-26",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "InCoM: Intent-Driven Perception and Structured Coordination for Whole-Body Mobile Manipulation",
-    "url": "http://arxiv.org/abs/2602.23024v1",
-    "date": "2026-02-26",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Interface-Aware Trajectory Reconstruction of Limited Demonstrations for Robot Learning",
-    "url": "http://arxiv.org/abs/2602.23287v1",
-    "date": "2026-02-26",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Robot Learning"
-    ]
-  },
-  {
-    "title": "System Identification under Constraints and Disturbance: A Bayesian Estimation Approach",
-    "url": "http://arxiv.org/abs/2602.16358v1",
-    "date": "2026-02-18",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "Introducing M: A Modular, Modifiable Social Robot",
-    "url": "http://arxiv.org/abs/2603.19134v1",
-    "date": "2026-03-19",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Sim-to-Real"
-    ]
-  },
-  {
-    "title": "Safety-Guaranteed Imitation Learning from Nonlinear Model Predictive Control for Spacecraft Close Proximity Operations",
-    "url": "http://arxiv.org/abs/2603.18910v1",
-    "date": "2026-03-19",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning"
-    ]
-  },
-  {
-    "title": "ADMM-Based Distributed MPC with Control Barrier Functions for Safe Multi-Robot Quadrupedal Locomotion",
-    "url": "http://arxiv.org/abs/2603.19170v1",
-    "date": "2026-03-19",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "Tendon-Actuated Robots with a Tapered, Flexible Polymer Backbone: Design, Fabrication, and Modeling",
-    "url": "http://arxiv.org/abs/2603.19124v1",
-    "date": "2026-03-19",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "ATG-MoE: Autoregressive trajectory generation with mixture-of-experts for assembly skill learning",
-    "url": "http://arxiv.org/abs/2603.19029v1",
-    "date": "2026-03-19",
-    "score": 0.3857142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "MASPO: Unifying Gradient Utilization, Probability Mass, and Signal Reliability for Robust and Sample-Efficient LLM Reasoning",
-    "url": "http://arxiv.org/abs/2602.17550v1",
-    "date": "2026-02-19",
-    "score": 0.3785714285714286,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Adapting Actively on the Fly: Relevance-Guided Online Meta-Learning with Latent Concepts for Geospatial Discovery",
-    "url": "http://arxiv.org/abs/2602.17605v1",
-    "date": "2026-02-19",
-    "score": 0.3785714285714286,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Stable Asynchrony: Variance-Controlled Off-Policy RL for LLMs",
-    "url": "http://arxiv.org/abs/2602.17616v1",
-    "date": "2026-02-19",
-    "score": 0.3785714285714286,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "A.R.I.S.: Automated Recycling Identification System for E-Waste Classification Using Deep Learning",
-    "url": "http://arxiv.org/abs/2602.17642v1",
-    "date": "2026-02-19",
-    "score": 0.3785714285714286,
-    "status": "new",
-    "keywords": [
-      "Deep Learning"
-    ]
-  },
-  {
-    "title": "SMAC: Score-Matched Actor-Critics for Robust Offline-to-Online Transfer",
-    "url": "http://arxiv.org/abs/2602.17632v1",
-    "date": "2026-02-19",
-    "score": 0.3785714285714286,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Reverso: Efficient Time Series Foundation Models for Zero-shot Forecasting",
-    "url": "http://arxiv.org/abs/2602.17634v1",
-    "date": "2026-02-19",
-    "score": 0.3785714285714286,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model",
-    "url": "http://arxiv.org/abs/2603.05438v1",
-    "date": "2026-03-05",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "World Model"
-    ]
-  },
-  {
-    "title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
-    "url": "http://arxiv.org/abs/2603.05504v2",
-    "date": "2026-03-05",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning"
-    ]
-  },
-  {
-    "title": "TransMASK: Masked State Representation through Learned Transformation",
-    "url": "http://arxiv.org/abs/2603.05670v1",
-    "date": "2026-03-05",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning"
-    ]
-  },
-  {
-    "title": "OSCAR: An Ovipositor-Inspired Self-Propelling Capsule Robot for Colonoscopy",
-    "url": "http://arxiv.org/abs/2602.15309v1",
-    "date": "2026-02-17",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "NFPO: Stabilized Policy Optimization of Normalizing Flow for Robotic Policy Learning",
-    "url": "http://arxiv.org/abs/2603.11470v1",
-    "date": "2026-03-12",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Grip as Needed, Glide on Demand: Ultrasonic Lubrication for Robotic Locomotion",
-    "url": "http://arxiv.org/abs/2602.15608v1",
-    "date": "2026-02-17",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Locomotion"
-    ]
-  },
-  {
-    "title": "VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing",
-    "url": "http://arxiv.org/abs/2602.15549v1",
-    "date": "2026-02-17",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "World Model"
-    ]
-  },
-  {
-    "title": "MemoAct: Atkinson-Shiffrin-Inspired Memory-Augmented Visuomotor Policy for Robotic Manipulation",
-    "url": "http://arxiv.org/abs/2603.18494v1",
-    "date": "2026-03-19",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Graph-of-Constraints Model Predictive Control for Reactive Multi-agent Task and Motion Planning",
-    "url": "http://arxiv.org/abs/2603.18400v1",
-    "date": "2026-03-19",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Data-Driven Control of a Magnetically Actuated Fish-Like Robot",
-    "url": "http://arxiv.org/abs/2603.04787v1",
-    "date": "2026-03-05",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning"
-    ]
-  },
-  {
-    "title": "Specification-Aware Distribution Shaping for Robotics Foundation Models",
-    "url": "http://arxiv.org/abs/2603.17969v1",
-    "date": "2026-03-18",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Iterative On-Policy Refinement of Hierarchical Diffusion Policies for Language-Conditioned Manipulation",
-    "url": "http://arxiv.org/abs/2603.05291v1",
-    "date": "2026-03-05",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Contact-Grounded Policy: Dexterous Visuotactile Policy with Generative Contact Grounding",
-    "url": "http://arxiv.org/abs/2603.05687v1",
-    "date": "2026-03-05",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Robotic Agentic Platform for Intelligent Electric Vehicle Disassembly",
-    "url": "http://arxiv.org/abs/2603.18520v1",
-    "date": "2026-03-19",
-    "score": 0.36428571428571427,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Continual learning and refinement of causal models through dynamic predicate invention",
-    "url": "http://arxiv.org/abs/2602.17217v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "World Model"
-    ]
-  },
-  {
-    "title": "Parameter-free representations outperform single-cell foundation models on downstream benchmarks",
-    "url": "http://arxiv.org/abs/2602.16696v1",
-    "date": "2026-02-18",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Position: Why a Dynamical Systems Perspective is Needed to Advance Time Series Modeling",
-    "url": "http://arxiv.org/abs/2602.16864v1",
-    "date": "2026-02-18",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Dynamic Decision-Making under Model Misspecification: A Stochastic Stability Approach",
-    "url": "http://arxiv.org/abs/2602.17086v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "RLGT: A reinforcement learning framework for extremal graph theory",
-    "url": "http://arxiv.org/abs/2602.17276v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "LexiSafe: Offline Safe Reinforcement Learning with Lexicographic Safety-Reward Hierarchy",
-    "url": "http://arxiv.org/abs/2602.17312v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "The Bots of Persuasion: Examining How Conversational Agents' Linguistic Expressions of Personality Affect User Perceptions and Decisions",
-    "url": "http://arxiv.org/abs/2602.17185v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation",
-    "url": "http://arxiv.org/abs/2602.16915v1",
-    "date": "2026-02-18",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures",
-    "url": "http://arxiv.org/abs/2602.17162v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Decoding the Human Factor: High Fidelity Behavioral Prediction for Strategic Foresight",
-    "url": "http://arxiv.org/abs/2602.17222v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Structured Prototype-Guided Adaptation for EEG Foundation Models",
-    "url": "http://arxiv.org/abs/2602.17251v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "What Breaks Embodied AI Security:LLM Vulnerabilities, CPS Flaws,or Something Else?",
-    "url": "http://arxiv.org/abs/2602.17345v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Embodied AI"
-    ]
-  },
-  {
-    "title": "Dataless Weight Disentanglement in Task Arithmetic via Kronecker-Factored Approximate Curvature",
-    "url": "http://arxiv.org/abs/2602.17385v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Systematic Evaluation of Single-Cell Foundation Model Interpretability Reveals Attention Captures Co-Expression Rather Than Unique Regulatory Signal",
-    "url": "http://arxiv.org/abs/2602.17532v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Visual Model Checking: Graph-Based Inference of Visual Routines for Image Retrieval",
-    "url": "http://arxiv.org/abs/2602.17386v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Deep Learning"
-    ]
-  },
-  {
-    "title": "EAGLE: Expert-Augmented Attention Guidance for Tuning-Free Industrial Anomaly Detection in Multimodal Large Language Models",
-    "url": "http://arxiv.org/abs/2602.17419v1",
-    "date": "2026-02-19",
-    "score": 0.35714285714285715,
-    "status": "new",
-    "keywords": [
-      "Deep Learning"
-    ]
-  },
-  {
-    "title": "ELLIPSE: Evidential Learning for Robust Waypoints and Uncertainties",
-    "url": "http://arxiv.org/abs/2603.04585v1",
-    "date": "2026-03-04",
-    "score": 0.3428571428571428,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning"
-    ]
-  },
-  {
-    "title": "DexEXO: A Wearability-First Dexterous Exoskeleton for Operator-Agnostic Demonstration and Learning",
-    "url": "http://arxiv.org/abs/2603.17323v1",
-    "date": "2026-03-18",
-    "score": 0.3428571428571428,
-    "status": "new",
-    "keywords": [
-      "Robot Learning"
-    ]
-  },
-  {
-    "title": "Causal Interpretation of Neural Network Computations with Contribution Decomposition",
-    "url": "http://arxiv.org/abs/2603.06557v1",
-    "date": "2026-03-06",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Increasing intelligence in AI agents can worsen collective outcomes",
-    "url": "http://arxiv.org/abs/2603.12129v1",
-    "date": "2026-03-12",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories",
-    "url": "http://arxiv.org/abs/2603.11987v1",
-    "date": "2026-03-12",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "Manipulation"
     ]
   },
   {
@@ -2018,6 +1752,134 @@
     ]
   },
   {
+    "title": "Trust Your Critic: Robust Reward Modeling and Reinforcement Learning for Faithful Image Editing and Generation",
+    "url": "http://arxiv.org/abs/2603.12247v1",
+    "date": "2026-03-12",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Linking Perception, Confidence and Accuracy in MLLMs",
+    "url": "http://arxiv.org/abs/2603.12149v1",
+    "date": "2026-03-12",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Bielik-Minitron-7B: Compressing Large Language Models via Structured Pruning and Knowledge Distillation for the Polish Language",
+    "url": "http://arxiv.org/abs/2603.11881v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2603.12257v1",
+    "date": "2026-03-12",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Hybrid Human-Agent Social Dilemmas in Energy Markets",
+    "url": "http://arxiv.org/abs/2603.11834v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "EgoIntent: An Egocentric Step-level Benchmark for Understanding What, Why, and Next",
+    "url": "http://arxiv.org/abs/2603.12147v1",
+    "date": "2026-03-12",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Imitation Learning"
+    ]
+  },
+  {
+    "title": "A Robust and Efficient Multi-Agent Reinforcement Learning Framework for Traffic Signal Control",
+    "url": "http://arxiv.org/abs/2603.12096v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing",
+    "url": "http://arxiv.org/abs/2603.12254v1",
+    "date": "2026-03-12",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "AGMARL-DKS: An Adaptive Graph-Enhanced Multi-Agent Reinforcement Learning for Dynamic Kubernetes Scheduling",
+    "url": "http://arxiv.org/abs/2603.12031v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "NFPO: Stabilized Policy Optimization of Normalizing Flow for Robotic Policy Learning",
+    "url": "http://arxiv.org/abs/2603.11470v1",
+    "date": "2026-03-12",
+    "score": 0.36428571428571427,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control",
+    "url": "http://arxiv.org/abs/2603.11940v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories",
+    "url": "http://arxiv.org/abs/2603.11987v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Towards Dynamic Model Identification and Gravity Compensation for the dVRK-Si Patient Side Manipulator",
+    "url": "http://arxiv.org/abs/2603.12099v1",
+    "date": "2026-03-12",
+    "score": 0.2857142857142857,
+    "status": "new",
+    "keywords": []
+  },
+  {
     "title": "Causal Prosody Mediation for Text-to-Speech:Counterfactual Training of Duration, Pitch, and Energy in FastSpeech2",
     "url": "http://arxiv.org/abs/2603.11683v1",
     "date": "2026-03-12",
@@ -2028,18 +1890,18 @@
     ]
   },
   {
-    "title": "Factored Latent Action World Models",
-    "url": "http://arxiv.org/abs/2602.16229v1",
-    "date": "2026-02-18",
-    "score": 0.3357142857142857,
+    "title": "DVD: Deterministic Video Depth Estimation with Generative Priors",
+    "url": "http://arxiv.org/abs/2603.12250v1",
+    "date": "2026-03-12",
+    "score": 0.2357142857142857,
     "status": "new",
     "keywords": [
-      "World Model"
+      "Foundation Model"
     ]
   },
   {
-    "title": "IsoCompute Playbook: Optimally Scaling Sampling Compute for LLM RL",
-    "url": "http://arxiv.org/abs/2603.12151v1",
+    "title": "Increasing intelligence in AI agents can worsen collective outcomes",
+    "url": "http://arxiv.org/abs/2603.12129v1",
     "date": "2026-03-12",
     "score": 0.3357142857142857,
     "status": "new",
@@ -2048,9 +1910,49 @@
     ]
   },
   {
-    "title": "Are Object-Centric Representations Better At Compositional Generalization?",
-    "url": "http://arxiv.org/abs/2602.16689v1",
-    "date": "2026-02-18",
+    "title": "Statistical and structural identifiability in representation learning",
+    "url": "http://arxiv.org/abs/2603.11970v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models",
+    "url": "http://arxiv.org/abs/2603.12208v1",
+    "date": "2026-03-12",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Manipulation"
+    ]
+  },
+  {
+    "title": "Frequentist Consistency of Prior-Data Fitted Networks for Causal Inference",
+    "url": "http://arxiv.org/abs/2603.12037v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation",
+    "url": "http://arxiv.org/abs/2603.12008v1",
+    "date": "2026-03-12",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": [
+      "Foundation Model"
+    ]
+  },
+  {
+    "title": "OSM-based Domain Adaptation for Remote Sensing VLMs",
+    "url": "http://arxiv.org/abs/2603.11804v1",
+    "date": "2026-03-12",
     "score": 0.3357142857142857,
     "status": "new",
     "keywords": [
@@ -2068,6 +1970,56 @@
     ]
   },
   {
+    "title": "Energy Prediction on Sloping Ground for Quadruped Robots",
+    "url": "http://arxiv.org/abs/2603.11963v1",
+    "date": "2026-03-12",
+    "score": 0.3857142857142857,
+    "status": "new",
+    "keywords": [
+      "Locomotion"
+    ]
+  },
+  {
+    "title": "Cascade: Composing Software-Hardware Attack Gadgets for Adversarial Threat Amplification in Compound AI Systems",
+    "url": "http://arxiv.org/abs/2603.12023v1",
+    "date": "2026-03-12",
+    "score": 0.2357142857142857,
+    "status": "new",
+    "keywords": []
+  },
+  {
+    "title": "On Information Self-Locking in Reinforcement Learning for Active Reasoning of LLM agents",
+    "url": "http://arxiv.org/abs/2603.12109v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "IsoCompute Playbook: Optimally Scaling Sampling Compute for LLM RL",
+    "url": "http://arxiv.org/abs/2603.12151v1",
+    "date": "2026-03-12",
+    "score": 0.3357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Cross-Domain Policy Optimization via Bellman Consistency and Hybrid Critics",
+    "url": "http://arxiv.org/abs/2603.12087v1",
+    "date": "2026-03-12",
+    "score": 0.5357142857142857,
+    "status": "new",
+    "keywords": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Manipulation"
+    ]
+  },
+  {
     "title": "Automatic Generation of High-Performance RL Environments",
     "url": "http://arxiv.org/abs/2603.12145v1",
     "date": "2026-03-12",
@@ -2078,44 +2030,14 @@
     ]
   },
   {
-    "title": "Frequentist Consistency of Prior-Data Fitted Networks for Causal Inference",
-    "url": "http://arxiv.org/abs/2603.12037v1",
+    "title": "SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics",
+    "url": "http://arxiv.org/abs/2603.12193v1",
     "date": "2026-03-12",
-    "score": 0.3357142857142857,
+    "score": 0.4857142857142857,
     "status": "new",
     "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
-    "url": "http://arxiv.org/abs/2603.12265v1",
-    "date": "2026-03-12",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "Foundation Model",
-      "Manipulation"
-    ]
-  },
-  {
-    "title": "Separable neural architectures as a primitive for unified predictive and generative intelligence",
-    "url": "http://arxiv.org/abs/2603.12244v1",
-    "date": "2026-03-12",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training",
-    "url": "http://arxiv.org/abs/2603.12255v1",
-    "date": "2026-03-12",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "Spatial Intelligence"
+      "Manipulation",
+      "Vision-Language-Action"
     ]
   },
   {
@@ -2130,53 +2052,13 @@
     ]
   },
   {
-    "title": "OSM-based Domain Adaptation for Remote Sensing VLMs",
-    "url": "http://arxiv.org/abs/2603.11804v1",
+    "title": "Separable neural architectures as a primitive for unified predictive and generative intelligence",
+    "url": "http://arxiv.org/abs/2603.12244v1",
     "date": "2026-03-12",
     "score": 0.3357142857142857,
     "status": "new",
     "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "SC-Arena: A Natural Language Benchmark for Single-Cell Reasoning with Knowledge-Augmented Evaluation",
-    "url": "http://arxiv.org/abs/2602.23199v1",
-    "date": "2026-02-26",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "Multi-agent imitation learning with function approximation: Linear Markov games and beyond",
-    "url": "http://arxiv.org/abs/2602.22810v1",
-    "date": "2026-02-26",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "Imitation Learning"
-    ]
-  },
-  {
-    "title": "Locating Demographic Bias at the Attention-Head Level in CLIP's Vision Encoder",
-    "url": "http://arxiv.org/abs/2603.11793v1",
-    "date": "2026-03-12",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "Foundation Model"
-    ]
-  },
-  {
-    "title": "On Sample-Efficient Generalized Planning via Learned Transition Models",
-    "url": "http://arxiv.org/abs/2602.23148v1",
-    "date": "2026-02-26",
-    "score": 0.3357142857142857,
-    "status": "new",
-    "keywords": [
-      "World Model"
+      "Reinforcement Learning"
     ]
   }
 ]
