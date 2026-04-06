@@ -1,5 +1,19 @@
 [
   {
+    "repo": "UltraDexGrasp",
+    "url": "https://github.com/InternRobotics/UltraDexGrasp",
+    "env": "uv",
+    "python": "3.10",
+    "cuda": "11.8",
+    "feasibility": "partial",
+    "status": "awaiting_approval",
+    "proposed_date": "2026-04-05",
+    "install_ok": null,
+    "eval_ok": null,
+    "test_date": null,
+    "paper": "UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data"
+  },
+  {
     "repo": "DYSL_VLA",
     "url": "https://github.com/PKU-SEC-Lab/DYSL_VLA",
     "env": "uv",
@@ -82,20 +96,6 @@
     "eval_ok": null,
     "test_date": null,
     "paper": "Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models"
-  },
-  {
-    "repo": "UltraDexGrasp",
-    "url": "https://github.com/InternRobotics/UltraDexGrasp",
-    "env": "uv",
-    "python": "3.10",
-    "cuda": "11.8",
-    "feasibility": "partial",
-    "status": "awaiting_approval",
-    "proposed_date": "2026-03-15",
-    "install_ok": null,
-    "eval_ok": null,
-    "test_date": null,
-    "paper": null
   },
   {
     "repo": "SeedPolicy",
