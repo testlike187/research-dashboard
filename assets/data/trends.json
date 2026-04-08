@@ -2,7 +2,7 @@
   "keywords": [
     {
       "keyword": "Reinforcement Learning",
-      "this_week": 29
+      "this_week": 27
     },
     {
       "keyword": "Foundation Model",
@@ -10,31 +10,27 @@
     },
     {
       "keyword": "Manipulation",
-      "this_week": 19
-    },
-    {
-      "keyword": "World Model",
       "this_week": 13
     },
     {
-      "keyword": "VLA",
+      "keyword": "World Model",
       "this_week": 10
     },
     {
-      "keyword": "Vision-Language-Action",
+      "keyword": "VLA",
       "this_week": 8
     },
     {
-      "keyword": "Imitation Learning",
-      "this_week": 5
+      "keyword": "Vision-Language-Action",
+      "this_week": 7
     },
     {
-      "keyword": "Humanoid",
+      "keyword": "Imitation Learning",
       "this_week": 4
     },
     {
-      "keyword": "Sim-to-Real",
-      "this_week": 2
+      "keyword": "Humanoid",
+      "this_week": 3
     },
     {
       "keyword": "Spatial Intelligence",
@@ -45,22 +41,22 @@
       "this_week": 1
     },
     {
-      "keyword": "Diffusion Policy",
+      "keyword": "MuJoCo",
       "this_week": 1
     },
     {
-      "keyword": "MuJoCo",
+      "keyword": "Sim-to-Real",
       "this_week": 1
     }
   ],
   "researchers": [
     {
-      "name": "Mingyang Song",
+      "name": "Mao Zheng",
       "affiliation": null,
       "count": 2
     },
     {
-      "name": "Mao Zheng",
+      "name": "Mingyang Song",
       "affiliation": null,
       "count": 2
     },
@@ -70,9 +66,9 @@
       "count": 2
     },
     {
-      "name": "Xihui Liu",
+      "name": "Zhiyong Cui",
       "affiliation": null,
-      "count": 2
+      "count": 1
     },
     {
       "name": "Chengxiang Li",
@@ -85,7 +81,12 @@
       "count": 1
     },
     {
-      "name": "Zhiyong Cui",
+      "name": "Xianke Wu",
+      "affiliation": null,
+      "count": 1
+    },
+    {
+      "name": "Qiyao Zhang",
       "affiliation": null,
       "count": 1
     },
@@ -95,12 +96,7 @@
       "count": 1
     },
     {
-      "name": "Xianke Wu",
-      "affiliation": null,
-      "count": 1
-    },
-    {
-      "name": "Qiyao Zhang",
+      "name": "Shuhua Zheng",
       "affiliation": null,
       "count": 1
     }
